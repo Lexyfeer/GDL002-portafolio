@@ -8,8 +8,10 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div className="contentPortfolio">
-        <h2>Hola!, soy un componente de Proyectos-Portafolio</h2>
+      <div className="mainContainer">
+        <div className="contentPortfolio">
+          <h2>Hola!, soy un componente de Proyectos-Portafolio</h2>
+        </div>
       </div>
 
     )

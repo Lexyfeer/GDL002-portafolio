@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -9,22 +10,16 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="mainContainer">
-
-        <Home />
-
-        <Aboutme />
-
-        <Portfolio />
-
-        <Skills />
-
-        <Contact />
-
+    <HashRouter>
+      <div className="App">
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        <Route path="/Aboutme" component={Aboutme} />
+        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Skills" component={Skills} />
+        <Route path="/Contact" component={Contact} />
       </div>
-    </div>
+    </HashRouter>
   );
 }
 

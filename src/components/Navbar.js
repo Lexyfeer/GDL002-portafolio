@@ -1,16 +1,19 @@
 import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
 import Logo from '../assets/images/LogoPortfolio.png';
 
 
 const Navbar = () => (
     <nav>
-        <img src={Logo} className="App-logo" alt="logo" />
+        <Link className="App-logo" to="/">
+            <img className="App-logo-image" src={Logo} alt="logo" />
+        </Link>
         <ul className="navMenu">
-            <li><a className="navMenuLink" to="/" >Inicio</a></li>
-            <li><a className="navMenuLink" to="/Aboutme" >Acerca de mi</a></li>
-            <li><a className="navMenuLink" to="/Portfolio" >Portafolio</a></li>
-            <li><a className="navMenuLink" to="/Skills" >Habilidades</a></li>
-            <li><a className="navMenuLink" to="/Contact" >Contacto y CV</a></li>
+            <li><NavLink className="navMenuLink" exact to="/" >Inicio</NavLink></li>
+            <li><NavLink className="navMenuLink" to="/Aboutme" >Acerca de mi</NavLink></li>
+            <li><NavLink className="navMenuLink" to="/Portfolio" >Portafolio</NavLink></li>
+            <li><NavLink className="navMenuLink" to="/Skills" >Habilidades</NavLink></li>
+            <li><NavLink className="navMenuLink" to="/Contact" >Contacto y CV</NavLink></li>
         </ul>
     </nav>
 );

@@ -8,10 +8,12 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <div className="contentSkills">
+      <div className="mainContainer">
+        <div className="contentSkills">
 
-        <h2>Hola!, soy un componente de HABILIDADES</h2>
+          <h2>Hola!, soy un componente de HABILIDADES</h2>
 
+        </div>
       </div>
 
     )
