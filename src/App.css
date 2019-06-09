@@ -1,13 +1,32 @@
-/* .App {
-  
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  border: solid .2rem lawngreen;
+}
+.mainContainer {
+  max-width: 95%;
+  margin: 1rem 2rem;
+  border: solid 0.2rem white;
+}
 
 .App-logo {
-  width: 45%;
+  width: 30%;
   height: 7rem;
   position: relative;
   left: -2rem;
   top: -1.2rem;
+
+  border: solid .2rem red;
+}
+.App-logo-image {
+  float: left;
+  position: relative;
+  /* left: -2rem; */
+  top: .100rem;
 
   border: solid .2rem red;
 }
@@ -17,13 +36,19 @@ nav {
   max-width: 100%;
   height: 7rem;
   margin: auto;
+  padding: 1rem 2rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
   border-bottom: 0.2rem solid rgb(255, 199, 1);
-  padding: 1rem 2rem;
 
   border: solid .2rem green;
+}
+
+.navMenu {
+  max-width: 100%;
+  display: flex;
+  border: solid .2rem palevioletred;
 }
 
 .navMenu li {
@@ -32,27 +57,32 @@ nav {
 }
 
 .navMenuLink {
+  width: 9.5rem;
+  height: 3rem;
   display: inline-block;
-  margin: 1rem;
-  border: 0.2rem solid rgba(2, 76, 248, 0.719);
+  margin: .5rem;
+  padding: 0.6rem;
+  border: 0.08rem solid white;
   text-decoration: none;
   border-radius: 0.5rem;
-  padding: 0.5rem 0.5rem;
   background-color: rgb(12, 12, 12);
   color: white;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .navMenuLink:hover {
-  border: 0.1rem solid rgba(248, 5, 5, 0.822);
-  background-color: rgb(7, 7, 7);
+  border: 0.08rem solid rgba(248, 5, 5, 0.822);
   cursor: pointer;
 }
 
-.mainContainer {
-  max-width: 100%;
-  margin: 1rem 2rem;
-  border: solid 0.2rem white;
+.navMenuLink.active {
+  font-size: 1rem;
+  border: 0.2rem solid rgb(232, 248, 5);
+  text-shadow: 0 0 1rem #fff, 0 0 5rem #fff, 0 0 5rem #fff, 0 0 10rem #e1e446,
+    0 0 10rem #e1e446;
+  -webkit-text-fill-color: #f4ecff;
+  -webkit-text-stroke-color: rgb(247, 230, 4);
+  -webkit-text-stroke-width: 0.1rem;
 }
 
 .contentHome,
@@ -85,6 +115,7 @@ nav {
   border: solid 0.2rem rgb(248, 7, 128);
 }
 
+nav ul li,
 .contentHome,
 .contentAboutme,
 .contentPortfolio,
@@ -123,33 +154,32 @@ nav {
   float: right;
 }
 
-.contentHome h2, p {
+.contentHome h2,
+p {
   font-weight: normal;
   text-align: center;
   font-style: normal;
 }
+
 .contentHome h2 {
   font-size: 5.5rem;
   /* utilizamos text-shadow (para dar resplandor al texto),
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y 
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 5rem #fff, 0 0 5rem #fff, 0 0 10rem 
-  #e1e446,
-    0 0 10rem #e1e446;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: rgb(247, 230, 4);
   -webkit-text-stroke-width: 0.1rem;
 }
+
 .contentHome p {
   font-size: 3.5rem;
   /* utilizamos text-shadow (para dar resplandor al texto),
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y 
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 5rem #fff, 0 0 5rem #fff, 0 0 10rem 
-  #e44646,
-    0 0 10rem #e44646;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e44646;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: rgb(247, 4, 4);
   -webkit-text-stroke-width: 0.1rem;
