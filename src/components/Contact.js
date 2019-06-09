@@ -9,10 +9,12 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contentContact">
-        
-          <h2>Hola!, soy un componente de CONTACTAME</h2>
-        
+        <h2>Hola!, soy un componente de CONTACTAME</h2>
+
+
+
       </div>
+
     )
   }
 }
