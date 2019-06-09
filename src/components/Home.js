@@ -9,9 +9,9 @@ class Home extends React.Component {
   render() {
     return (
       <div className="contentHome">
-       
-          <h2>Hola!, soy un componente de Inicio</h2>
-        
+        <h2>Nancy Rodríguez López</h2>
+        <p>Front-end Developer</p>
+
       </div>
     )
   }
