@@ -1,10 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .App {
   width: 100%;
+  background-color: rgb(22, 20, 20);
   border: solid .2rem lawngreen;
 }
 .mainContainer {
