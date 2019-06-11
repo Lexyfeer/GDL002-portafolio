@@ -10,9 +10,10 @@ class Home extends React.Component {
     return (
       <div className="mainContainer">
         <div className="contentHome">
-          <h2>Nancy Rodríguez López</h2>
-          <p>Front-end Developer</p>
-
+          <div className="post">
+            <h2>Nancy Rodríguez López</h2>
+            <p>Front-end Developer</p>
+          </div>
         </div>
       </div>
     )
