@@ -5,7 +5,7 @@ import Logo from '../assets/images/LogoPortfolio.png';
 
 const Navbar = () => (
     <nav>
-        <Link className="App-logo" to="/">
+        <Link className="App-logo navbar-brand" to="/">
             <img className="App-logo-image" src={Logo} alt="logo" />
         </Link>
         <ul className="navMenu">
