@@ -56,10 +56,13 @@ nav {
 }
 
 .navMenu {
-  width: 95%;
   display: flex;
-  justify-content: space-between;
-  overflow: hidden;
+  justify-content: space-around;
+  /* overflow: hidden; */
+  border: solid .2rem palevioletred;
+}
+.navMenu ul {
+  text-decoration: none;
   border: solid .2rem palevioletred;
 }
 
@@ -73,7 +76,7 @@ nav {
   height: 3rem;
   display: inline-block;
   margin: .5rem;
-  padding: 0.6rem;
+  
   border: 0.08rem solid white;
   text-decoration: none;
   border-radius: 0.5rem;
@@ -101,13 +104,12 @@ nav {
 .App-logo-image {
   position: relative;
   left: -1rem;
-  top: -1.2rem;
+  top: -1.5rem;
   width: 100%;
   height: 7rem;
 
   border: solid .2rem red;
 }
-
 
 .contentHome {
   border: solid 0.2rem rgb(214, 12, 12);
@@ -206,6 +208,7 @@ p {
 @media only screen and (max-width: 600px) {
   .App {
     width: 100%;
+    height: 100%;
   }
 
   .mainContainer {
@@ -221,18 +224,15 @@ p {
   }
 
   nav {
-    width: 95%;
-    height: 7rem;
     display: table;
   }
 
   .navMenu {
-    width: 95%;
-    display: flex;
+    display: block;
   }
 
   .navMenu li {
-    display: block;
+    display: inline-block;
   }
 
   .navMenuLink {
@@ -252,8 +252,7 @@ p {
   }
 
   .App-logo-image {
-    width: 100%;
-    height: 7rem;
+    display: block;
   }
 }
 
@@ -264,6 +263,7 @@ p {
 @media only screen and (max-width: 992px) {
   .App {
     width: 100%;
+    height: 100%;
   }
 
   .mainContainer {
@@ -312,6 +312,7 @@ p {
 @media only screen and (min-width: 1200px) {
   .App {
     width: 100%;
+    height: 100%;
   }
 
   .mainContainer {
