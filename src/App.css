@@ -8,13 +8,15 @@
 /* PRINCIPALES CONTENEDORES */
 .App {
   width: 100%;
-  max-height: 100%;
+  height: 85rem;
+
   background-color: rgb(22, 20, 20);
   border: solid .2rem lawngreen;
 }
 
 .mainContainer {
   width: 95%;
+  height: 62.5rem;
   margin: 2rem auto;
   box-sizing: border-box;
   border: solid 0.2rem white;
@@ -26,7 +28,7 @@
 .contentSkills,
 .contentContact {
   max-width: 100%;
-  height: 40rem;
+  height: 59.5rem;
   margin: 1.5rem;
   box-sizing: border-box;
 }
@@ -60,6 +62,7 @@ nav {
   /* overflow: hidden; */
   border: solid .2rem palevioletred;
 }
+
 .navMenu ul {
   text-decoration: none;
   border: solid .2rem palevioletred;
@@ -206,12 +209,13 @@ p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .App {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    max-height: 100%;
   }
 
   .mainContainer {
     width: 95%;
+    max-height: 100%;
   }
 
   .contentHome,
@@ -220,6 +224,7 @@ p {
   .contentSkills,
   .contentContact {
     max-width: 100%;
+    max-height: 100%;
   }
 
   nav {
@@ -239,23 +244,53 @@ p {
     height: 3rem;
     display: block;
     margin: .1rem;
-    padding: 0.3rem;
   }
 
   .navMenu li {
-    font-size: .9rem;
+    font-size: .7rem;
   }
 
   .navMenuLink.active {
-    font-size: .9rem;
+    font-size: .7rem;
   }
 
   .App-logo-image {
     display: block;
   }
+
   .profilePicture {
-    width: 35%;
-    height: 30rem;
+    display: block;
+    width: 100%;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 2rem;
+  }
+
+  .contentPortfolio p,
+  .contentSkills p,
+  .contentContact p {
+    display: block;
+    padding: .4rem;
+    font-size: 1rem;
+  }
+
+  .contentAboutme p {
+    width: 100%;
+    display: block;
+    padding: .4rem;
+    font-size: 1rem;
+  }
+
+  .contentHome h2 {
+    font-size: 2.5rem;
+  }
+
+  .contentHome p {
+    font-size: 1.8rem;
   }
 }
 
@@ -264,11 +299,6 @@ p {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  .App {
-    width: 100%;
-    height: 100%;
-  }
-
   .mainContainer {
     width: 95%;
   }
@@ -292,9 +322,8 @@ p {
 
   .navMenuLink {
     width: 6.5rem;
-    height: 3rem;
+    height: 3.3rem;
     margin: .1rem;
-    padding: 0.3rem;
   }
 
   .navMenu li {
@@ -311,7 +340,7 @@ p {
   }
 
   .profilePicture {
-    width: 35%;
+    width: 93%;
     height: 30rem;
   }
 }
@@ -361,7 +390,7 @@ p {
   }
 
   .profilePicture {
-    width: 100%;
+    width: 35%;
     height: 30rem;
   }
 }
