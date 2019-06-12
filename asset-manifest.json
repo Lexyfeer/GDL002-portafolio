@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GDL002-portafolio/static/css/main.b4e178fa.chunk.css",
+    "main.css": "/GDL002-portafolio/static/css/main.e1d9cc38.chunk.css",
     "main.js": "/GDL002-portafolio/static/js/main.539e125c.chunk.js",
     "main.js.map": "/GDL002-portafolio/static/js/main.539e125c.chunk.js.map",
     "runtime~main.js": "/GDL002-portafolio/static/js/runtime~main.a23a9136.js",
@@ -8,9 +8,9 @@
     "static/js/2.5f0ee398.chunk.js": "/GDL002-portafolio/static/js/2.5f0ee398.chunk.js",
     "static/js/2.5f0ee398.chunk.js.map": "/GDL002-portafolio/static/js/2.5f0ee398.chunk.js.map",
     "index.html": "/GDL002-portafolio/index.html",
-    "precache-manifest.8b799eca23f9913d06964c50d942678e.js": "/GDL002-portafolio/precache-manifest.8b799eca23f9913d06964c50d942678e.js",
+    "precache-manifest.6b7f947fd75fa2928a1ddf7cde954875.js": "/GDL002-portafolio/precache-manifest.6b7f947fd75fa2928a1ddf7cde954875.js",
     "service-worker.js": "/GDL002-portafolio/service-worker.js",
-    "static/css/main.b4e178fa.chunk.css.map": "/GDL002-portafolio/static/css/main.b4e178fa.chunk.css.map",
+    "static/css/main.e1d9cc38.chunk.css.map": "/GDL002-portafolio/static/css/main.e1d9cc38.chunk.css.map",
     "static/media/LogoPortfolio.png": "/GDL002-portafolio/static/media/LogoPortfolio.addc13e4.png",
     "static/media/PictureProfile.jpg": "/GDL002-portafolio/static/media/PictureProfile.ea34610c.jpg"
   }
