@@ -1,5 +1,8 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import PictureProfile from '../assets/images/PictureProfile.jpg'
+import iconLinkedin from '../assets/images/icon-linkedin-52.png';
+import iconGithub from '../assets/images/icon-github.png';
 
 class Aboutme extends React.Component {
   // constructor () {
@@ -17,8 +20,20 @@ class Aboutme extends React.Component {
           <div>
             <p>AQUI IMAGENES DE PASATIEMPOS</p>
           </div>
-          <div>
-            <p>AQUI ENLACES A MIS REDES SOCIALES</p>
+          <div className="social">
+            <div>
+              <p>¡Sigueme en mis redes sociales !</p>
+            </div>
+
+            <a href="https://www.linkedin.com/in/nancyrodriguezlopez/" rel="noopener noreferrer" target="_blank">
+              <label>LinkedIn</label>
+              <img className="" src={iconLinkedin} alt="linkedin" />
+            </a>
+
+            <a href="https://github.com/Lexyfeer" rel="noopener noreferrer" target="_blank">
+              <label>Github</label>
+              <img className="" src={iconGithub} alt="github" />
+            </a>
           </div>
         </div>
       </div>
