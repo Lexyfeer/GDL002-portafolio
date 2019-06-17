@@ -221,9 +221,9 @@ p {
 
 /* HOBBIES */
 .containerHobbies {
-  width: 50%;
+  width: 60%;
   position: relative;
-  left: 5rem;
+  left: 3rem;
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;

@@ -5,6 +5,7 @@ import iconLinkedin from '../assets/images/icon-linkedin-52.png';
 import iconGithub from '../assets/images/icon-github.png';
 import iconMusic from '../assets/images/icon-music.png';
 import iconVideoGames from '../assets/images/icon-game.png';
+import iconMovies from '../assets/images/icon-movies.png';
 import iconPumpItUp from '../assets/images/tablero pump.jpg';
 
 class Aboutme extends React.Component {
@@ -25,6 +26,8 @@ class Aboutme extends React.Component {
             <img className="hobbies" src={iconMusic} alt="Escuchar música" />
             <label>Videojuegos</label>
             <img className="hobbies" src={iconVideoGames} alt="Videojuegos" />
+            <label>Películas</label>
+            <img className="hobbies" src={iconMovies} alt="Películas" />
             <label>Pump it up</label>
             <img className="hobbies" src={iconPumpItUp} alt="Pump it up" />
           </div>
