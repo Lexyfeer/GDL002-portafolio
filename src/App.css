@@ -15,8 +15,8 @@
 
 .mainContainer {
   width: 98%;
-  height: auto;
-  margin: 9.5rem auto 1rem;
+  height: 44rem;
+  margin: 9.5rem auto .1rem;
   box-sizing: border-box;
   border: solid 0.2rem white;
 }
@@ -27,7 +27,7 @@
 .contentSkills,
 .contentContact {
   max-width: 100%;
-  height: auto;
+  height: 42rem;
   margin: .7rem .5rem;
   box-sizing: border-box;
 }
@@ -38,7 +38,8 @@
 .contentPortfolio,
 .contentSkills,
 .contentContact,
-.navMenu {
+.navMenu,
+.containerSocial {
   font-family: "BeonRegular";
 }
 
@@ -247,25 +248,27 @@ p {
 
 /* REDES SOCIALES */
 .containerSocial {
-  width: 45%;
+  width: 100%;
   height: auto;
   display: flex;
-  position: relative;
+  justify-content: flex-end;
+  /* position: relative;
   left: 14.5rem;
-  bottom: .5rem;
+  bottom: .5rem; */
 
   border: solid .2rem blue;
 }
 
 .containerSocial p {
-  width: 90%;
-  margin: 0 .5rem;
-  float: left;
-  font-size: 1.2rem;
+  width: 100%;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  /* float: left; */
+  font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
 
-  border: solid greenyellow .2rem;
+  border: solid greenyellow .1rem;
 }
 
 .containerSocial label {
@@ -296,6 +299,7 @@ p {
   .mainContainer {
     width: 95%;
     height: auto;
+    margin-top: 7rem;
   }
 
   .contentHome,
@@ -405,6 +409,8 @@ p {
 
   .containerSocial p {
     width: 95%;
+    margin-top: .4rem;
+    margin: auto;
     display: block;
     font-size: 1.2rem;
   }
