@@ -295,11 +295,14 @@ p {
   }
 
   .App-logo-image {
-    position: relative;
-    left: .5rem;
-    top: -.5rem;
-    display: inline;
+    width: 77%;
+    height: 7rem;
+    float: left;
   }
+
+  .navbar-brand {
+    display: block;
+}
 
   /* .btnMenuIco {
     display: inline-block;
