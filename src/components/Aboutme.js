@@ -3,6 +3,9 @@ import React from 'react';
 import PictureProfile from '../assets/images/PictureProfile.jpg'
 import iconLinkedin from '../assets/images/icon-linkedin-52.png';
 import iconGithub from '../assets/images/icon-github.png';
+import iconMusic from '../assets/images/icon-music.png';
+import iconVideoGames from '../assets/images/icon-game.png';
+import iconPumpItUp from '../assets/images/tablero pump.jpg';
 
 class Aboutme extends React.Component {
   // constructor () {
@@ -17,8 +20,13 @@ class Aboutme extends React.Component {
           <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
           <p>Mi nombre completo es **Nancy María de la Luz Rodríguez López** soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnologia, estudie Licenciatura en nutrcion y soy pasante de la misma, despues de eso mi campo laboral habia sido hasta ahora como recepcionista, secretaria o en ventas.</p> <br />
           <p>Agunos de mis pasatiempos son:</p>
-          <div>
-            <p>AQUI IMAGENES DE PASATIEMPOS</p>
+          <div className="containerHobbies">
+            <label>Música</label>
+            <img className="hobbies" src={iconMusic} alt="Escuchar música" />
+            <label>Videojuegos</label>
+            <img className="hobbies" src={iconVideoGames} alt="Videojuegos" />
+            <label>Pump it up</label>
+            <img className="hobbies" src={iconPumpItUp} alt="Pump it up" />
           </div>
           <div className="social">
             <div>

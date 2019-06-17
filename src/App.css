@@ -204,7 +204,7 @@ p {
   width: 35%;
   height: auto;
   position: relative;
-  left: .8rem;
+  left: .6rem;
   float: left;
 }
 
@@ -217,6 +217,32 @@ p {
   bottom: -10rem;
   
   border: solid .2rem blue;
+}
+
+/* HOBBIES */
+.containerHobbies {
+  width: 50%;
+  position: relative;
+  left: 5rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  
+  border: solid .1rem mediumturquoise;
+}
+
+.containerHobbies label {
+  font-size: 1.2rem;
+  display: flex;
+  margin: .5rem;
+  margin-bottom: .3rem;
+  -webkit-text-fill-color: #f4ecff;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+}
+
+.hobbies {
+  width: 4.5rem;
+  height: auto;
 }
 
 .social p {
@@ -260,7 +286,6 @@ p {
   .mainContainer {
     width: 95%;
     height: auto;
-    /* max-height: 100%; */
   }
 
   .contentHome,
@@ -270,11 +295,10 @@ p {
   .contentContact {
     max-width: 100%;
     height: auto;
-    /* max-height: 100%; */
   }
 
   nav {
-    display: table;
+    display: inline-block;
   }
 
   .navMenu {
@@ -283,8 +307,6 @@ p {
   }
 
   .navMenuLink {
-    /* display: block; */
-    /* font-size: .7rem; */
     margin: .3rem 0;
     width: 100%;
     height: 3rem;
@@ -333,7 +355,7 @@ p {
     width: 100%;
     display: block;
     padding: .4rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .contentHome h2 {
@@ -366,8 +388,25 @@ p {
   }
   
   .social a {
-    font-size: .9rem;
+    font-size: 1.1rem;
     display: inline-block;
+  }
+
+  .containerHobbies {
+    width: 60%;
+    position: relative;
+    left: 3.5rem;
+    display: inline-block;
+    
+    border: solid .3rem mediumturquoise;
+  }
+
+  .containerHobbies label {
+    text-align: center;
+  }
+
+  .hobbies {
+    margin: 0 2.5rem;
   }
 }
 
