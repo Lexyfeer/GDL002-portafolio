@@ -18,7 +18,9 @@ class Aboutme extends React.Component {
       <div className="mainContainer">
         <div className="contentAboutme">
           <h2>Algo sobre mi</h2> <br />
-          <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
+          <div className="containerProfilePicture">
+            <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
+          </div>
           <p>Mi nombre completo es **Nancy María de la Luz Rodríguez López** soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnologia, estudie Licenciatura en nutrcion y soy pasante de la misma, despues de eso mi campo laboral habia sido hasta ahora como recepcionista, secretaria o en ventas.</p> <br />
           <p>Agunos de mis pasatiempos son:</p>
           <div className="containerHobbies">
@@ -31,7 +33,7 @@ class Aboutme extends React.Component {
             <label>Pump it up</label>
             <img className="hobbies" src={iconPumpItUp} alt="Pump it up" />
           </div>
-          <div className="social">
+          <div className="containerSocial">
             <div>
               <p>¡Sigueme en mis redes sociales !</p>
             </div>

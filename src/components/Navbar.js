@@ -5,7 +5,7 @@ import menuIco from '../assets/images/icon-menu-48.png';
 
 
 const Navbar = () => (
-    <nav className="navbar-expand-lg">
+    <nav className="navbar-expand-md">
         <Link className="App-logo navbar-brand" to="/">
             <img className="App-logo-image" src={Logo} alt="logo" />
         </Link>
