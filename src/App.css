@@ -202,9 +202,9 @@ p {
 /* FOTO DE PERFIL */
 .profilePicture {
   width: 35%;
-  height: 30rem;
+  height: auto;
   position: relative;
-  left: 1rem;
+  left: .8rem;
   float: left;
 }
 
@@ -387,7 +387,7 @@ p {
 
   nav {
     width: 100%;
-    height: 7rem;
+    height: auto;
   }
 
   .navMenu {
@@ -400,23 +400,28 @@ p {
     margin: .1rem;
   }
 
-  .navMenu li {
+  /* .navMenu li {
     display: block;
     font-size: .9rem;
-  }
+  } */
 
   .navMenuLink.active {
     font-size: .9rem;
   }
 
   .App-logo-image {
-    width: 100%;
+    width: 77%;
     height: 7rem;
+    float: left;
   }
+
+  .navbar-brand {
+    display: block;
+}
 
   .profilePicture {
     width: 93%;
-    height: 30rem;
+    height: auto;
   }
 }
 
@@ -424,7 +429,7 @@ p {
 @media only screen and (min-width: 1200px) {
   .App {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .mainContainer {
@@ -441,7 +446,7 @@ p {
 
   nav {
     width: 100%;
-    height: 7rem;
+    height: auto;
   }
 
   .navMenu {
@@ -466,7 +471,7 @@ p {
 
   .profilePicture {
     width: 35%;
-    height: 30rem;
+    height: auto;
   }
 }
 
