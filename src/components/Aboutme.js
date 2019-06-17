@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import PictureProfile from '../assets/images/PictureProfile.jpg'
-import iconLinkedin from '../assets/images/icon-linkedin-52.png';
-import iconGithub from '../assets/images/icon-github.png';
+// import iconLinkedin from '../assets/images/icon-linkedin-52.png';
+// import iconGithub from '../assets/images/icon-github.png';
 import iconMusic from '../assets/images/icon-music.png';
 import iconVideoGames from '../assets/images/icon-game.png';
 import iconMovies from '../assets/images/icon-movies.png';
@@ -33,7 +33,7 @@ class Aboutme extends React.Component {
             <label>Pump it up</label>
             <img className="hobbies" src={iconPumpItUp} alt="Pump it up" />
           </div>
-          <div className="containerSocial">
+          {/* <div className="containerSocial">
             <div>
               <p>¡Sigueme en mis redes sociales !</p>
             </div>
@@ -47,7 +47,7 @@ class Aboutme extends React.Component {
               <label>Github</label>
               <img className="" src={iconGithub} alt="github" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     )
