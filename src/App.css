@@ -215,7 +215,7 @@ p {
   position: relative;
   left: 10rem;
   bottom: -10rem;
-  
+
   border: solid .2rem blue;
 }
 
@@ -227,7 +227,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;
-  
+
   border: solid .1rem mediumturquoise;
 }
 
@@ -328,7 +328,7 @@ p {
 
   .navbar-brand {
     display: block;
-}
+  }
 
   .btnMenuIco {
     position: relative;
@@ -378,20 +378,20 @@ p {
     position: relative;
     left: .01rem;
     bottom: 1rem;
-    
+
     border: solid .2rem blue;
   }
-  
+
   .social p {
     width: 95%;
     display: block;
     font-size: 1.2rem;
   }
-  
+
   .social label {
     display: inline-block;
   }
-  
+
   .social a {
     font-size: 1.1rem;
     display: inline-block;
@@ -402,7 +402,7 @@ p {
     position: relative;
     left: 3.5rem;
     display: inline-block;
-    
+
     border: solid .3rem mediumturquoise;
   }
 
@@ -418,7 +418,7 @@ p {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 900px and up) */
 @media only screen and (max-width: 900px) {
   .mainContainer {
     width: 95%;
@@ -447,11 +447,6 @@ p {
     margin: 0 .2rem;
   }
 
-  /* .navMenu li {
-    display: block;
-    font-size: .9rem;
-  } */
-
   .navMenuLink.active {
     font-size: .9rem;
   }
@@ -464,7 +459,12 @@ p {
 
   .navbar-brand {
     display: block;
-}
+  }
+
+  .btnMenuIco {
+    position: relative;
+    right: 15.9rem;
+  }
 
   .profilePicture {
     width: 93%;
