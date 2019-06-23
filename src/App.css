@@ -14,7 +14,6 @@ h6 {
   font-family: "BeonRegular";
 }
 
-
 body {
   background-color: rgb(22, 20, 20);
   font-family: 'Montserrat', sans-serif;
@@ -24,8 +23,8 @@ body {
 
 /* PRINCIPALES CONTENEDORES */
 .App {
-  /* width: 100%; */
-  /* height: 100vh; */
+  width: auto;
+  height: auto;
   /* background-color: rgb(22, 20, 20); */
   margin-top: 9rem;
   border: solid .2rem lawngreen;
@@ -33,7 +32,7 @@ body {
 
 .mainContainer {
   width: 98%;
-  /* height: auto; */
+  height: auto;
   margin: 1rem auto .1rem;
   box-sizing: border-box;
   border: solid 0.2rem white;
@@ -45,7 +44,7 @@ body {
 .contentSkills,
 .contentContact {
   max-width: 100%;
-  height: 42rem;
+  height: auto;
   margin: .7rem .5rem;
   box-sizing: border-box;
 }
@@ -84,8 +83,8 @@ nav {
 }
 
 .navMenuLink {
-  width: 9.5rem;
-  height: 3rem;
+  width: 7.5rem;
+  height: 4rem;
   display: inline-block;
   margin: .5rem;
   border: 0.08rem solid white;
@@ -176,10 +175,12 @@ nav {
 }
 
 .contentAboutme p {
-  width: 62%;
+  width: 48%;
   text-align: justify;
+  position: relative;
+  right: .5rem;
   padding: .8rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
   float: right;
@@ -218,10 +219,10 @@ p {
 
 /* FOTO DE PERFIL */
 .containerProfilePicture {
-  width: 35%;
+  width: 50%;
   height: auto;
   margin-left: .5rem;
-  position: inherit;
+  position: relative;
   float: left;
   padding: .5rem;
 
@@ -230,16 +231,17 @@ p {
 
 .profilePicture {
   width: 100%;
-  height: 33rem;
+  height: auto;
 }
 
 /* HOBBIES */
 .containerHobbies {
-  width: 63%;
-  height: auto;
+  width: 46%;
+  /* height: auto; */
+  text-align: center;
   position: relative;
   right: -1rem;
-  display: flex;
+  display: inline-block;
   justify-content: space-around;
   margin-bottom: 2rem;
 
@@ -247,8 +249,8 @@ p {
 }
 
 .containerHobbies label {
-  font-size: 1.2rem;
-  display: flex;
+  font-size: 1.4rem;
+  display: inline-block;
   margin: .5rem;
   margin-bottom: .3rem;
   -webkit-text-fill-color: #f4ecff;
@@ -256,8 +258,9 @@ p {
 }
 
 .hobbies {
-  width: 4.5rem;
-  height: auto;
+  width: 5rem;
+  /* height: auto; */
+  margin: 1rem auto;
 }
 
 /* REDES SOCIALES */
@@ -460,152 +463,68 @@ p {
   }
 }
 
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 600px) {
-  .mainContainer {
-    width: 95%;
+/* Large devices (laptops/desktops, 1440px and up) */
+/* @media only screenand and (max-width: 1024px) {
+  .App {
+    width: auto;
     height: auto;
-    margin-top: 7rem;
   }
 
-  .contentHome,
+  .mainContainer,
   .contentAboutme,
   .contentPortfolio,
   .contentSkills,
   .contentContact {
-    max-width: 100%;
+    width: auto;
     height: auto;
-  }
-
-  nav {
-    display: inline-block;
-    padding: .5rem;
-  }
-
-  .navMenu {
-    flex-direction: column;
-  }
-
-  .navMenuLink {
-    margin: .3rem 0;
-    width: 100%;
-    height: auto;
-  }
-
-  .navMenuLink.active {
-    font-size: .7rem;
   }
 
   .App-logo-image {
-    width: 77%;
-    height: 5rem;
-    position: relative;
-    left: 5.4rem;
-    top: -.1rem;
-    float: left;
+    width: 35rem;
   }
 
-  .navbar-brand {
-    display: block;
-  }
-
-  .btnMenuIco {
-    position: relative;
-    top: .3rem;
-    left: -15.5em;
-    padding: .4rem;
-  }
-
-  .containerProfilePicture {
-    width: 95%;
-    height: auto;
-    margin: 0 .5rem;
-    position: inherit;
-
-  }
-
-  .profilePicture {
-    display: block;
-    width: 100%;
-    margin: 0 .5rem;
-  }
-
-  .contentAboutme h2,
-  .contentPortfolio h2,
-  .contentSkills h2,
-  .contentContact h2 {
-    font-size: 2rem;
-  }
-
-  .contentPortfolio p,
-  .contentSkills p,
-  .contentContact p {
-    display: block;
-    padding: .4rem;
-    font-size: 1rem;
+  .navMenuLink {
+    width: 9.5rem;
+    height: 3rem;
+    display: inline-block;
+    margin: .5rem;
+    border: 0.08rem solid white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    transition: all 0.4s ease-in-out;
   }
 
   .contentAboutme p {
-    width: 100%;
-    display: block;
-    padding: .4rem;
-    font-size: 1.2rem;
-  }
-
-  .contentHome h2 {
-    font-size: 2.5rem;
-  }
-
-  .contentHome p {
-    font-size: 1.8rem;
-  }
-
-  .containerSocial {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    position: inherit;
-
-    border: solid .2rem blue;
-  }
-
-  .containerSocial p {
-    width: 95%;
-    margin-top: .4rem;
-    margin: auto;
-    display: block;
-    font-size: 1.2rem;
-  }
-
-  .containerSocial label {
-    display: inline-block;
-  }
-
-  .containerSocial a {
-    font-size: 1.1rem;
-    display: inline-block;
-  }
-
-  .containerHobbies {
-    width: 60%;
-    position: inherit;
-    margin: 0 4rem;
-    margin-bottom: 2rem;
-    display: inline-block;
-
-    border: solid .3rem mediumturquoise;
-  }
-
-  .containerHobbies label {
-    text-align: center;
+    font-size: 2.4rem;
   }
 
   .hobbies {
-    margin: 0 2.5rem;
+    width: 6.5rem;
   }
-}
+
+  .containerHobbies label {
+    font-size: 1.9rem;
+  }
+
+  .containerSocial p {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .containerSocial label {
+    font-size: 1.7rem;
+  }
+
+  .containerSocial img {
+    width: 5.5rem;
+  }
+} */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {} */
