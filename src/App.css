@@ -5,18 +5,36 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BeonRegular";
+}
+
+
+body {
+  background-color: rgb(22, 20, 20);
+  font-family: 'Montserrat', sans-serif;
+
+  /* border: solid .2rem lawngreen; */
+}
+
 /* PRINCIPALES CONTENEDORES */
 .App {
-  width: 100%;
-  height: auto;
-  background-color: rgb(22, 20, 20);
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* background-color: rgb(22, 20, 20); */
+  margin-top: 9rem;
   border: solid .2rem lawngreen;
 }
 
 .mainContainer {
   width: 98%;
-  height: 44rem;
-  margin: 9.5rem auto .1rem;
+  /* height: auto; */
+  margin: 1rem auto .1rem;
   box-sizing: border-box;
   border: solid 0.2rem white;
 }
@@ -33,7 +51,7 @@
 }
 
 /* TIPOGRAFIA */
-.contentHome,
+/* .contentHome,
 .contentAboutme,
 .contentPortfolio,
 .contentSkills,
@@ -41,36 +59,29 @@
 .navMenu,
 .containerSocial {
   font-family: "BeonRegular";
-}
+} */
 
 /* BARRA DE NAVEGACION */
 nav {
+  /* width: 100%; */
   background-color: rgb(37, 37, 35);
-  position: fixed;
-  width: 100%;
-  height: auto;
-  /* padding: 1rem; */
-  text-align: center;
-  display: flex;
-  border-bottom: 0.2rem solid rgb(255, 199, 1);
-  justify-content: space-between;
+  /* position: fixed; */
+  /* width: 99.5%; */
+  /* height: auto; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* border-bottom: 0.2rem solid rgb(255, 199, 1); */
+  /* justify-content: space-between; */
 
   border: solid .2rem green;
 }
 
 .navMenu {
-  /* list-style: none; */
   display: flex;
   justify-content: center;
 
   border: solid .2rem palevioletred;
 }
-
-/* .navMenu li {
-  display: inline-block;
-  list-style: none;
-  overflow: hidden;
-} */
 
 .navMenuLink {
   width: 9.5rem;
@@ -101,24 +112,27 @@ nav {
   -webkit-text-stroke-width: 0.1rem;
 }
 
+.navMenuLink h6 {
+  margin: .6rem;
+  text-align: center;
+}
+
 /* LOGO DE LA NAV */
 .App-logo-image {
-  position: relative;
-  left: .3rem;
-  /* top: -1.5rem; */
+  /* position: relative; */
+  /* left: .3rem; */
   width: 100%;
-  height: 7rem;
+  height: 6rem;
 
   border: solid .2rem red;
 }
 
 /* BOTON HAMBURGUESA PARA MENU */
-.btnMenuIco {
+/* .btnMenuIco {
   background-color: rgba(144, 143, 139, 0.268);
   border: none;
   margin: 0 .3rem;
-  /* display: none; */
-}
+} */
 
 
 .contentHome {
@@ -263,10 +277,28 @@ p {
   width: 100%;
   margin-top: 2rem;
   margin-right: 2rem;
-  /* float: left; */
   font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
+}
+
+.containerSocial label {
+  display: flex;
+  margin: .5rem;
+  margin-bottom: .3rem;
+}
+
+.containerSocial a {
+  font-size: 1rem;
+  margin: 0 .5rem;
+  -webkit-text-fill-color: #f4ecff;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  justify-content: flex-end;
+}
+
+.containerSocial img {
+  margin: 0 .5rem;
+  width: 4rem;
 
   border: solid greenyellow .1rem;
 }
@@ -291,11 +323,108 @@ p {
 
 
 /* MEDIA QUERIES */
-/* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {}
+/* Extra small devices (phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+  .App {
+    height: auto;
+    margin-top: 7rem;
+  }
+
+  .mainContainer,
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    height: auto;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    right: 1.2rem;
+    padding: .25rem .40rem;
+  }
+
+  .navbar-brand {
+    width: 70%;
+    margin: 0;
+  }
+
+  .App-logo-image {
+    width: 100%;
+    height: 5rem;
+  }
+
+  .navMenuLink {
+    width: 100%;
+    height: 2.5rem;
+    margin: .2rem;
+  }
+
+  .navMenuLink h6 {
+    margin: .4rem auto;
+  }
+
+  .contentHome h2 {
+    font-size: 3.5rem;
+    text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
+    -webkit-text-stroke-color: rgb(247, 230, 4);
+  }
+
+  .contentHome p {
+    font-size: 3rem;
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
+    margin-bottom: 0;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 3rem;
+  }
+
+  .containerSocial img {
+    width: 4rem;
+  }
+
+  .containerProfilePicture {
+    width: 96%;
+    padding: .5rem;
+  }
+
+  .contentAboutme p {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.1rem;
+  }
+
+  .containerHobbies {
+    width: 45%;
+    margin-left: 5.5rem;
+    display: inline-block;
+  }
+
+  .hobbies {
+    margin-left: 3rem;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .contentHome h2 {
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 0.1rem #e1e446;
+  }
+
+  .contentHome p {
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 0.6rem #e44646;
+    margin: 0;
+}
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) {
   .mainContainer {
     width: 95%;
     height: auto;
@@ -317,7 +446,6 @@ p {
   }
 
   .navMenu {
-    /* display: block; */
     flex-direction: column;
   }
 
@@ -356,7 +484,6 @@ p {
     height: auto;
     margin: 0 .5rem;
     position: inherit;
-    /* padding: .5rem; */
 
   }
 
@@ -364,8 +491,6 @@ p {
     display: block;
     width: 100%;
     margin: 0 .5rem;
-    /* width: 100%; */
-    /* height: auto; */
   }
 
   .contentAboutme h2,
@@ -444,10 +569,10 @@ p {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* @media only screen and (min-width: 768px) {} */
 
 /* Large devices (laptops/desktops, 900px and up) */
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .mainContainer {
     width: 95%;
   }
@@ -500,10 +625,10 @@ p {
     width: 93%;
     height: auto;
   }
-}
+} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* @media only screen and (min-width: 1024px) {} */
 
 /* @media (max-width: 900px) {
 
