@@ -5,18 +5,34 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BeonRegular";
+}
+
+body {
+  background-color: rgb(22, 20, 20);
+  font-family: 'Montserrat', sans-serif;
+
+  /* border: solid .2rem lawngreen; */
+}
+
 /* PRINCIPALES CONTENEDORES */
 .App {
-  width: 100%;
+  width: auto;
   height: auto;
-  background-color: rgb(22, 20, 20);
+  margin-top: 9rem;
   border: solid .2rem lawngreen;
 }
 
 .mainContainer {
   width: 98%;
-  height: 44rem;
-  margin: 9.5rem auto .1rem;
+  height: auto;
+  margin: 1rem auto .1rem;
   box-sizing: border-box;
   border: solid 0.2rem white;
 }
@@ -27,54 +43,36 @@
 .contentSkills,
 .contentContact {
   max-width: 100%;
-  height: 42rem;
+  height: auto;
   margin: .7rem .5rem;
   box-sizing: border-box;
 }
 
-/* TIPOGRAFIA */
-.contentHome,
-.contentAboutme,
-.contentPortfolio,
-.contentSkills,
-.contentContact,
-.navMenu,
-.containerSocial {
-  font-family: "BeonRegular";
-}
-
 /* BARRA DE NAVEGACION */
 nav {
+  /* width: 100%; */
   background-color: rgb(37, 37, 35);
-  position: fixed;
-  width: 100%;
-  height: auto;
-  /* padding: 1rem; */
-  text-align: center;
-  display: flex;
-  border-bottom: 0.2rem solid rgb(255, 199, 1);
-  justify-content: space-between;
+  /* position: fixed; */
+  /* width: 99.5%; */
+  /* height: auto; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* border-bottom: 0.2rem solid rgb(255, 199, 1); */
+  /* justify-content: space-between; */
 
   border: solid .2rem green;
 }
 
 .navMenu {
-  /* list-style: none; */
   display: flex;
   justify-content: center;
 
   border: solid .2rem palevioletred;
 }
 
-/* .navMenu li {
-  display: inline-block;
-  list-style: none;
-  overflow: hidden;
-} */
-
 .navMenuLink {
-  width: 9.5rem;
-  height: 3rem;
+  width: 7.5rem;
+  height: 4rem;
   display: inline-block;
   margin: .5rem;
   border: 0.08rem solid white;
@@ -101,25 +99,20 @@ nav {
   -webkit-text-stroke-width: 0.1rem;
 }
 
+.navMenuLink h6 {
+  margin: .6rem;
+  text-align: center;
+}
+
 /* LOGO DE LA NAV */
 .App-logo-image {
-  position: relative;
-  left: .3rem;
-  /* top: -1.5rem; */
+  /* position: relative; */
+  /* left: .3rem; */
   width: 100%;
-  height: 7rem;
+  height: 6rem;
 
   border: solid .2rem red;
 }
-
-/* BOTON HAMBURGUESA PARA MENU */
-.btnMenuIco {
-  background-color: rgba(144, 143, 139, 0.268);
-  border: none;
-  margin: 0 .3rem;
-  /* display: none; */
-}
-
 
 .contentHome {
   border: solid 0.2rem rgb(214, 12, 12);
@@ -162,10 +155,12 @@ nav {
 }
 
 .contentAboutme p {
-  width: 62%;
+  width: 65%;
   text-align: justify;
+  position: relative;
+  right: 1rem;
   padding: .8rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
   float: right;
@@ -184,9 +179,9 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #f3f70a;
   -webkit-text-fill-color: #f4ecff;
-  -webkit-text-stroke-color: rgb(247, 230, 4);
+  -webkit-text-stroke-color: rgb(243, 247, 4);
   -webkit-text-stroke-width: 0.1rem;
 }
 
@@ -196,7 +191,7 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e44646;
+  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #e44646;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: rgb(247, 4, 4);
   -webkit-text-stroke-width: 0.1rem;
@@ -204,10 +199,10 @@ p {
 
 /* FOTO DE PERFIL */
 .containerProfilePicture {
-  width: 35%;
+  width: 32%;
   height: auto;
   margin-left: .5rem;
-  position: inherit;
+  position: relative;
   float: left;
   padding: .5rem;
 
@@ -216,16 +211,16 @@ p {
 
 .profilePicture {
   width: 100%;
-  height: 33rem;
+  height: auto;
 }
 
 /* HOBBIES */
 .containerHobbies {
-  width: 63%;
-  height: auto;
+  width: 60%;
+  text-align: center;
   position: relative;
-  right: -1rem;
-  display: flex;
+  right: -2rem;
+  display: inline-block;
   justify-content: space-around;
   margin-bottom: 2rem;
 
@@ -233,17 +228,17 @@ p {
 }
 
 .containerHobbies label {
-  font-size: 1.2rem;
-  display: flex;
+  font-size: 1.4rem;
+  display: inline-block;
   margin: .5rem;
   margin-bottom: .3rem;
   -webkit-text-fill-color: #f4ecff;
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .1rem #e1e446;
 }
 
 .hobbies {
   width: 4.5rem;
-  height: auto;
+  margin: 1rem auto;
 }
 
 /* REDES SOCIALES */
@@ -263,10 +258,28 @@ p {
   width: 100%;
   margin-top: 2rem;
   margin-right: 2rem;
-  /* float: left; */
   font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
+}
+
+.containerSocial label {
+  display: flex;
+  margin: .5rem;
+  margin-bottom: .3rem;
+}
+
+.containerSocial a {
+  font-size: 1rem;
+  margin: 0 .5rem;
+  -webkit-text-fill-color: #f4ecff;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  justify-content: flex-end;
+}
+
+.containerSocial img {
+  margin: 0 .5rem;
+  width: 4rem;
 
   border: solid greenyellow .1rem;
 }
@@ -291,219 +304,179 @@ p {
 
 
 /* MEDIA QUERIES */
-/* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {}
+/* Extra small devices (phones, 425px and down) */
+@media (max-width: 425px) {
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  .mainContainer {
-    width: 95%;
-    height: auto;
+  .App {
     margin-top: 7rem;
   }
 
-  .contentHome,
+  .mainContainer,
   .contentAboutme,
   .contentPortfolio,
   .contentSkills,
   .contentContact {
-    max-width: 100%;
+    width: auto;
     height: auto;
   }
 
-  nav {
-    display: inline-block;
-    padding: .5rem;
-  }
-
-  .navMenu {
-    /* display: block; */
-    flex-direction: column;
-  }
-
-  .navMenuLink {
-    margin: .3rem 0;
-    width: 100%;
+  .mainContainer,
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
     height: auto;
   }
 
-  .navMenuLink.active {
-    font-size: .7rem;
-  }
-
-  .App-logo-image {
-    width: 77%;
-    height: 5rem;
+  .navbar-toggler {
     position: relative;
-    left: 5.4rem;
-    top: -.1rem;
-    float: left;
+    right: 1.2rem;
+    padding: .25rem .40rem;
   }
 
   .navbar-brand {
-    display: block;
+    width: 70%;
+    margin: 0;
   }
 
-  .btnMenuIco {
-    position: relative;
-    top: .3rem;
-    left: -15.5em;
-    padding: .4rem;
-  }
-
-  .containerProfilePicture {
-    width: 95%;
-    height: auto;
-    margin: 0 .5rem;
-    position: inherit;
-    /* padding: .5rem; */
-
-  }
-
-  .profilePicture {
-    display: block;
+  .App-logo-image {
     width: 100%;
-    margin: 0 .5rem;
-    /* width: 100%; */
-    /* height: auto; */
+    height: 5rem;
+  }
+
+  .navMenuLink {
+    width: 100%;
+    height: 2.5rem;
+    margin: .2rem;
+  }
+
+  .navMenuLink h6 {
+    margin: .4rem auto;
+  }
+
+  .contentHome h2 {
+    font-size: 3rem;
+    text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
+    -webkit-text-stroke-color: rgb(247, 230, 4);
+  }
+
+  .contentHome p {
+    font-size: 2.5rem;
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
+    margin-bottom: 0;
   }
 
   .contentAboutme h2,
   .contentPortfolio h2,
   .contentSkills h2,
   .contentContact h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
-  .contentPortfolio p,
-  .contentSkills p,
-  .contentContact p {
-    display: block;
-    padding: .4rem;
+  .containerSocial img {
+    width: 3rem;
+  }
+
+  .containerSocial p {
+    margin-top: .5rem;
     font-size: 1rem;
+  }
+
+  .containerProfilePicture {
+    width: 96%;
+    padding: .5rem;
   }
 
   .contentAboutme p {
     width: 100%;
-    display: block;
-    padding: .4rem;
+    position: relative;
+    left: .06rem;
     font-size: 1.2rem;
-  }
-
-  .contentHome h2 {
-    font-size: 2.5rem;
-  }
-
-  .contentHome p {
-    font-size: 1.8rem;
-  }
-
-  .containerSocial {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    position: inherit;
-
-    border: solid .2rem blue;
-  }
-
-  .containerSocial p {
-    width: 95%;
-    margin-top: .4rem;
-    margin: auto;
-    display: block;
-    font-size: 1.2rem;
-  }
-
-  .containerSocial label {
-    display: inline-block;
-  }
-
-  .containerSocial a {
-    font-size: 1.1rem;
-    display: inline-block;
   }
 
   .containerHobbies {
-    width: 60%;
-    position: inherit;
-    margin: 0 4rem;
-    margin-bottom: 2rem;
+    position: relative;
+    left: 5rem;
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 50%;
     display: inline-block;
-
-    border: solid .3rem mediumturquoise;
-  }
-
-  .containerHobbies label {
-    text-align: center;
   }
 
   .hobbies {
-    margin: 0 2.5rem;
+    margin: 1rem;
+    width: 4rem;
+  }
+
+  .containerHobbies label {
+    font-size: 1.1rem;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
 
-/* Large devices (laptops/desktops, 900px and up) */
-@media only screen and (max-width: 900px) {
-  .mainContainer {
-    width: 95%;
+  .contentHome h2 {
+    text-shadow: 0 0 1rem #fff, 0 0 0.1rem #fff, 0 0 0.1rem #e1e446;
   }
 
-  .contentHome,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
-    max-width: 100%;
-  }
-
-  nav {
-    width: 100%;
-    height: auto;
-  }
-
-  .navMenu {
-    width: 100%;
+  .contentHome p {
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 0.6rem #e44646;
+    margin: 0;
   }
 
   .navMenuLink {
-    width: 98%;
-    height: 2rem;
-    margin: 0 .2rem;
+    width: 100%;
+    height: 2.5rem;
+    margin: .1rem;
   }
 
-  .navMenuLink.active {
-    font-size: .9rem;
+  .containerProfilePicture {
+    width: 51%;
+    margin: auto .3rem;
   }
 
-  .App-logo-image {
-    width: 77%;
-    height: 4.5rem;
-    float: left;
-  }
-
-  .navbar-brand {
-    display: block;
-  }
-
-  .btnMenuIco {
+  .contentAboutme p {
     position: relative;
-    top: -.1rem;
-    right: 19rem;
+    right: .4rem;
+    width: 47%;
     padding: .4rem;
+    font-size: 1.2rem;
   }
 
-  .profilePicture {
-    width: 93%;
-    height: auto;
+  .containerHobbies {
+    position: relative;
+    left: -.01rem;
+    /* padding: 2rem; */
+    width: 47%;
+    display: inline-block;
+  }
+
+  .hobbies {
+    margin: .5rem;
+    width: 2.8rem;
+  }
+
+  .containerHobbies label {
+    font-size: 1.1rem;
   }
 }
 
+/* Large devices (laptops/desktops, 1024px and up) */
+/* @media only screenand and (mix-width: 1025px) {} */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 900px and up) */
+/* @media only screen and (max-width: 900px) {} */
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* @media only screen and (min-width: 1024px) {} */
 
 /* @media (max-width: 900px) {
 
