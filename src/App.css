@@ -385,21 +385,25 @@ p {
   .containerProfilePicture {
     width: 96%;
     padding: .5rem;
+    position: relative;
+    bottom: -46rem;
   }
 
   .contentAboutme p {
     width: 100%;
     position: relative;
     left: .06rem;
+    top: -36rem;
     font-size: 1.2rem;
   }
 
   .containerHobbies {
     position: relative;
-    left: 5rem;
+    left: 1rem;
+    top: -38rem;
     padding: .5rem;
     margin: 1rem auto;
-    width: 50%;
+    width: 92%;
     display: inline-block;
   }
 
@@ -409,6 +413,7 @@ p {
   }
 
   .containerHobbies label {
+    width: 7rem;
     font-size: 1.1rem;
   }
 }
