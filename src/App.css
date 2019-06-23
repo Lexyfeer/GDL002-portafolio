@@ -25,7 +25,6 @@ body {
 .App {
   width: auto;
   height: auto;
-  /* background-color: rgb(22, 20, 20); */
   margin-top: 9rem;
   border: solid .2rem lawngreen;
 }
@@ -48,17 +47,6 @@ body {
   margin: .7rem .5rem;
   box-sizing: border-box;
 }
-
-/* TIPOGRAFIA */
-/* .contentHome,
-.contentAboutme,
-.contentPortfolio,
-.contentSkills,
-.contentContact,
-.navMenu,
-.containerSocial {
-  font-family: "BeonRegular";
-} */
 
 /* BARRA DE NAVEGACION */
 nav {
@@ -126,14 +114,6 @@ nav {
   border: solid .2rem red;
 }
 
-/* BOTON HAMBURGUESA PARA MENU */
-/* .btnMenuIco {
-  background-color: rgba(144, 143, 139, 0.268);
-  border: none;
-  margin: 0 .3rem;
-} */
-
-
 .contentHome {
   border: solid 0.2rem rgb(214, 12, 12);
 }
@@ -175,10 +155,10 @@ nav {
 }
 
 .contentAboutme p {
-  width: 48%;
+  width: 65%;
   text-align: justify;
   position: relative;
-  right: .5rem;
+  right: 1rem;
   padding: .8rem;
   font-size: 1.6rem;
   font-weight: normal;
@@ -199,9 +179,9 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #f3f70a;
   -webkit-text-fill-color: #f4ecff;
-  -webkit-text-stroke-color: rgb(247, 230, 4);
+  -webkit-text-stroke-color: rgb(243, 247, 4);
   -webkit-text-stroke-width: 0.1rem;
 }
 
@@ -211,7 +191,7 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e44646;
+  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #e44646;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: rgb(247, 4, 4);
   -webkit-text-stroke-width: 0.1rem;
@@ -219,7 +199,7 @@ p {
 
 /* FOTO DE PERFIL */
 .containerProfilePicture {
-  width: 50%;
+  width: 32%;
   height: auto;
   margin-left: .5rem;
   position: relative;
@@ -236,11 +216,10 @@ p {
 
 /* HOBBIES */
 .containerHobbies {
-  width: 46%;
-  /* height: auto; */
+  width: 60%;
   text-align: center;
   position: relative;
-  right: -1rem;
+  right: -2rem;
   display: inline-block;
   justify-content: space-around;
   margin-bottom: 2rem;
@@ -254,12 +233,11 @@ p {
   margin: .5rem;
   margin-bottom: .3rem;
   -webkit-text-fill-color: #f4ecff;
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
+  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .1rem #e1e446;
 }
 
 .hobbies {
-  width: 5rem;
-  /* height: auto; */
+  width: 4.5rem;
   margin: 1rem auto;
 }
 
@@ -327,10 +305,19 @@ p {
 
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 425px and down) */
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
+
   .App {
-    height: auto;
     margin-top: 7rem;
+  }
+
+  .mainContainer,
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    width: auto;
+    height: auto;
   }
 
   .mainContainer,
@@ -368,13 +355,13 @@ p {
   }
 
   .contentHome h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
     -webkit-text-stroke-color: rgb(247, 230, 4);
   }
 
   .contentHome p {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
     margin-bottom: 0;
   }
@@ -387,7 +374,12 @@ p {
   }
 
   .containerSocial img {
-    width: 4rem;
+    width: 3rem;
+  }
+
+  .containerSocial p {
+    margin-top: .5rem;
+    font-size: 1rem;
   }
 
   .containerProfilePicture {
@@ -397,36 +389,32 @@ p {
 
   .contentAboutme p {
     width: 100%;
-    padding: .5rem;
-    font-size: 1.1rem;
+    position: relative;
+    left: .06rem;
+    font-size: 1.2rem;
   }
 
   .containerHobbies {
-    width: 45%;
-    margin-left: 5.5rem;
+    position: relative;
+    left: 5rem;
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 50%;
     display: inline-block;
   }
 
   .hobbies {
-    margin-left: 3rem;
+    margin: 1rem;
+    width: 4rem;
+  }
+
+  .containerHobbies label {
+    font-size: 1.1rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) and (min-width: 426px) {
-  .App {
-    width: auto;
-    height: auto;
-  }
-
-  .mainContainer,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
-    width: auto;
-    height: auto;
-  }
 
   .contentHome h2 {
     text-shadow: 0 0 1rem #fff, 0 0 0.1rem #fff, 0 0 0.1rem #e1e446;
@@ -449,78 +437,33 @@ p {
   }
 
   .contentAboutme p {
+    position: relative;
+    right: .4rem;
     width: 47%;
     padding: .4rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .containerHobbies {
-    width: 99%;
     position: relative;
-    left: .2rem;
-    margin: 1rem auto;
-    display: inline-flex;
-  }
-}
-
-/* Large devices (laptops/desktops, 1440px and up) */
-/* @media only screenand and (max-width: 1024px) {
-  .App {
-    width: auto;
-    height: auto;
-  }
-
-  .mainContainer,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
-    width: auto;
-    height: auto;
-  }
-
-  .App-logo-image {
-    width: 35rem;
-  }
-
-  .navMenuLink {
-    width: 9.5rem;
-    height: 3rem;
+    left: -.01rem;
+    /* padding: 2rem; */
+    width: 47%;
     display: inline-block;
-    margin: .5rem;
-    border: 0.08rem solid white;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    background-color: rgb(12, 12, 12);
-    color: white;
-    transition: all 0.4s ease-in-out;
-  }
-
-  .contentAboutme p {
-    font-size: 2.4rem;
   }
 
   .hobbies {
-    width: 6.5rem;
+    margin: .5rem;
+    width: 2.8rem;
   }
 
   .containerHobbies label {
-    font-size: 1.9rem;
+    font-size: 1.1rem;
   }
+}
 
-  .containerSocial p {
-    margin-top: 1rem;
-    font-size: 2rem;
-  }
-
-  .containerSocial label {
-    font-size: 1.7rem;
-  }
-
-  .containerSocial img {
-    width: 5.5rem;
-  }
-} */
+/* Large devices (laptops/desktops, 1024px and up) */
+/* @media only screenand and (mix-width: 1025px) {} */
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -530,60 +473,7 @@ p {
 /* @media only screen and (min-width: 768px) {} */
 
 /* Large devices (laptops/desktops, 900px and up) */
-/* @media only screen and (max-width: 900px) {
-  .mainContainer {
-    width: 95%;
-  }
-
-  .contentHome,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
-    max-width: 100%;
-  }
-
-  nav {
-    width: 100%;
-    height: auto;
-  }
-
-  .navMenu {
-    width: 100%;
-  }
-
-  .navMenuLink {
-    width: 98%;
-    height: 2rem;
-    margin: 0 .2rem;
-  }
-
-  .navMenuLink.active {
-    font-size: .9rem;
-  }
-
-  .App-logo-image {
-    width: 77%;
-    height: 4.5rem;
-    float: left;
-  }
-
-  .navbar-brand {
-    display: block;
-  }
-
-  .btnMenuIco {
-    position: relative;
-    top: -.1rem;
-    right: 19rem;
-    padding: .4rem;
-  }
-
-  .profilePicture {
-    width: 93%;
-    height: auto;
-  }
-} */
+/* @media only screen and (max-width: 900px) {} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1024px) {} */
