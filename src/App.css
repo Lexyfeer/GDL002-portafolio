@@ -160,7 +160,7 @@ nav {
   position: relative;
   right: 1rem;
   padding: .8rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
   float: right;
@@ -222,13 +222,13 @@ p {
   right: -2rem;
   display: inline-block;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin-bottom: 13rem;
 
   border: solid .1rem mediumturquoise;
 }
 
 .containerHobbies label {
-  font-size: 1.4rem;
+  font-size: 1rem;
   display: inline-block;
   margin: .5rem;
   margin-bottom: .3rem;
@@ -243,9 +243,10 @@ p {
 
 /* REDES SOCIALES */
 .containerSocial {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
+  padding: .5rem;
   justify-content: flex-end;
   /* position: relative;
   left: 14.5rem;
@@ -678,7 +679,6 @@ p {
   .containerHobbies {
     position: relative;
     left: -.01rem;
-    /* padding: 2rem; */
     width: 47%;
     display: inline-block;
   }
@@ -693,8 +693,138 @@ p {
   }
 }
 
-/* Large devices (laptops/desktops, 1024px and up) */
-/* @media only screenand and (mix-width: 1025px) {} */
+/* Large devices (laptops/desktops, 1440px and up) */
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+
+  /* HOBBIES */
+  .containerHobbies {
+    width: 50%;
+    margin-bottom: 16rem;
+  }
+}
+
+/* Large devices (screen 2560px and up) */
+@media only screen and (min-width: 1440px) {
+  .App {
+    margin-top: 11rem;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 4.5rem;
+  }
+
+  .contentAboutme p {
+    font-size: 1.7rem;
+  }
+
+  .containerHobbies {
+    width: 55%;
+    right: -3rem;
+    margin-bottom: 7rem;
+  }
+
+  .hobbies {
+    width: 5rem;
+  }
+
+  .containerHobbies label {
+    font-size: 1.8rem;
+  }
+
+  .App-logo-image {
+    width: 100%;
+    height: 9rem;
+  }
+
+  .navMenuLink {
+    width: 11.5rem;
+    height: 5rem;
+  }
+
+  .navMenuLink h6 {
+    font-size: 1.5rem;
+  }
+
+  .containerSocial p {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .containerSocial label {
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .containerSocial img {
+    margin: 0 1rem;
+    width: 5rem;
+  }
+}
+
+/* Large devices (screen 2560px and up) */
+@media only screen and (min-width: 2560px) {
+  .App {
+    margin-top: 13rem;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 7rem;
+  }
+
+  .contentAboutme p {
+    font-size: 4rem;
+  }
+
+  .containerHobbies {
+    right: -7rem;
+  }
+
+  .hobbies {
+    width: 9rem;
+  }
+
+  .containerHobbies label {
+    font-size: 3.5rem;
+  }
+
+  .App-logo-image {
+    width: 60rem;
+    height: 10rem;
+  }
+
+  .navMenuLink {
+    width: 17rem;
+    height: 5rem;
+  }
+
+  .navMenuLink h6 {
+    font-size: 1.5rem;
+  }
+
+  .containerSocial p {
+    margin-top: 1rem;
+    font-size: 3rem;
+  }
+
+  .containerSocial label {
+    font-size: 2.5rem;
+    margin: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .containerSocial img {
+    margin: 0 1rem;
+    width: 8rem;
+  }
+
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
