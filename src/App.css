@@ -303,6 +303,60 @@ p {
   margin: 0 .5rem;
 }
 
+.containerCardsTecSkills {
+  display: inline-flex;
+  margin: auto 1.5rem;
+
+  border: solid .2rem red;
+}
+
+.containerCardsSoftSkills {
+  display: inline-flex;
+  margin: auto 1.5rem;
+
+  border: solid .2rem red;
+}
+
+.cardTecSkills {
+  margin: .5rem;
+  width: 14rem;
+
+  border: solid .2rem red;
+}
+
+.cardSoftSkills {
+  margin: .5rem;
+  width: 14rem;
+
+  border: solid .2rem red;
+}
+
+.list-group-item {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+}
+
+.containerSkills {
+  display: inline-flex;
+  margin: auto 1.5rem;
+  
+  border: solid .2rem chartreuse;
+}
+
+.skills {
+  width: 3rem;
+  margin: 1rem 1rem;
+}
+
+.h2tecSkills {
+  border: solid .2rem white;
+}
+
+.h2softSkills {
+  border: solid .2rem white;
+}
+
 
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 320px and down) */

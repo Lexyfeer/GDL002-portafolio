@@ -2,39 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Logo from '../assets/images/LogoPortfolio.png';
 //import menuIco from '../assets/images/icon-menu-48.png';
-
-//import Navbar from 'react-bootstrap/Navbar';
 import { Navbar, Nav } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
-
-
-/*
-const Styles = styled.div `
-    * {
-        background-color: #aaa
-    }
-
-    .navMenuLink {
-        width: 9.5rem;
-        height: 3rem;
-        display: inline-block;
-        margin: .5rem;
-        border: 0.08rem solid white;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        background-color: rgb(12, 12, 12);
-        color: white;
-        transition: all 0.4s ease-in-out;
-      }
-
-      .navMenu {
-        display: flex;
-        justify-content: center;
-    }
-
-`
-*/
-
 
 /*
 const Navbar = () => (
@@ -60,34 +28,6 @@ const Navbar = () => (
 );
 */
 
-// const Styles = styled.div`
-//     .navbar {
-//         background-color: rgb(37, 37, 35);
-//     }
-
-//     .h6, h6 {
-//         color: white;
-//         width: 8rem;
-//         height: 3rem;
-//         display: inline-block;
-//         margin: .5rem;
-//         border: 0.08rem solid white;
-//         border-radius: 0.5rem;
-//         background-color: rgb(12, 12, 12);
-//         transition: all 0.4s ease-in-out;
-//         text-align: center;
-//         vertical-align: middle;
-//         padding: .5rem 0;
-//     }
-
-//     a {
-//         text-decoration: none;
-//     }
-
-//     img {
-//         display: block;
-//     }
-// ` 
 
 const Navigation = () => (
         <Navbar variant="dark" expand="lg" fixed="top">
