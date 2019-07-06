@@ -42,35 +42,35 @@ class Skills extends Component {
           </div>
 
           <div className="containerCardsTecSkills">
-            <div className="cardTecSkills">
+            <div className="cardTecSkills border-primary">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">HTML 5</li>
                 <li className="list-group-item">CSS 3</li>
                 <li className="list-group-item">JavaScript</li>
               </ul>
             </div>
-            <div className="cardTecSkills">
+            <div className="cardTecSkills border-danger">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">React</li>
                 <li className="list-group-item">NodeJS</li>
                 <li className="list-group-item">NPM</li>
               </ul>
             </div>
-            <div className="cardTecSkills">
+            <div className="cardTecSkills border-warning">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">MongoDB</li>
                 <li className="list-group-item">Jest</li>
                 <li className="list-group-item">Github</li>
               </ul>
             </div>
-            <div className="cardTecSkills">
+            <div className="cardTecSkills border-info">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Git</li>
                 <li className="list-group-item">Bootstrap</li>
                 <li className="list-group-item">Responsive Web Design</li>
               </ul>
             </div>
-            <div className="cardTecSkills">
+            <div className="cardTecSkills border-success">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Metodología Agil</li>
                 <li className="list-group-item">Manejo de Kanban</li>
@@ -83,35 +83,35 @@ class Skills extends Component {
           <h2 className="h2softSkills">Habilidades Blandas</h2>
 
           <div className="containerCardsSoftSkills">
-            <div className="cardSoftSkills">
+            <div className="cardSoftSkills border-success">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Auto aprendizaje</li>
                 <li className="list-group-item">Trabajo en equipo</li>
               </ul>
             </div>
 
-            <div className="cardSoftSkills">
+            <div className="cardSoftSkills border-info">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Manejo del estrés</li>
                 <li className="list-group-item">Capacidad para resolver problemas</li>
               </ul>
             </div>
 
-            <div className="cardSoftSkills">
+            <div className="cardSoftSkills border-warning">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Adaptabilidad</li>
                 <li className="list-group-item">Inteligencia emocional</li>
               </ul>
             </div>
 
-            <div className="cardSoftSkills">
+            <div className="cardSoftSkills border-danger">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Escucha activa</li>
                 <li className="list-group-item">Perserverante</li>
               </ul>
             </div>
-            
-            <div className="cardSoftSkills">
+
+            <div className="cardSoftSkills border-primary">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Empatía</li>
                 <li className="list-group-item">Servicio al cliente</li>

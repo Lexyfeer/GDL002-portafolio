@@ -318,17 +318,19 @@ p {
 }
 
 .cardTecSkills {
+  padding: .2rem;
   margin: .5rem;
   width: 14rem;
 
-  border: solid .2rem red;
+  border: solid .1rem;
 }
 
 .cardSoftSkills {
+  padding: .2rem;
   margin: .5rem;
   width: 14rem;
 
-  border: solid .2rem red;
+  border: solid .1rem;
 }
 
 .list-group-item {
