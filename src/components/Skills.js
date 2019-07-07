@@ -21,7 +21,7 @@ class Skills extends Component {
     return (
       <Fragment>
         <div className="contentSkills">
-          <h2 className="h2tecSkills">Habilidades técnicas</h2>
+          <h2>Habilidades técnicas</h2>
 
           <div className="containerSkills">
             <img className="skills" src={html5} alt="HTML 5" />
@@ -80,7 +80,7 @@ class Skills extends Component {
           </div>
 
 
-          <h2 className="h2softSkills">Habilidades Blandas</h2>
+          <h2>Habilidades Blandas</h2>
 
           <div className="containerCardsSoftSkills">
             <div className="cardSoftSkills border-success">
