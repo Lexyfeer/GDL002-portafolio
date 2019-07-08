@@ -119,8 +119,6 @@ class Skills extends Component {
             </div>
           </div>
         </div>
-
-
       </Fragment >
 
     )

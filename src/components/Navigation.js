@@ -52,7 +52,7 @@ const Navigation = () => (
 
                     <Nav.Item>
                         <NavLink className="navMenuLink" to="/Portfolio">
-                            <h6>Portafolio</h6>
+                            <h6>Proyectos</h6>
                         </NavLink>
                     </Nav.Item>
 
