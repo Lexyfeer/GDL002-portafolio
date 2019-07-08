@@ -11,7 +11,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "BeonRegular";
+  /* font-family: 'Righteous', cursive, sans-serif; */
+  /* font-family: 'Concert One', cursive; */
+  /* font-family: 'Fredoka One', cursive, sans-serif; */
+  /* font-family: 'Bangers', cursive; */
+  /* font-family: 'Mitr', sans-serif; */
+  /* font-family: 'Carter One', cursive; */
+  /* font-family: 'Baloo', cursive; */
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Sniglet', cursive, sans-serif;
 }
 
 body {
@@ -186,6 +194,7 @@ p {
 }
 
 .contentHome p {
+  font-family: 'Sniglet', cursive, sans-serif;
   font-size: 3.5rem;
   /* utilizamos text-shadow (para dar resplandor al texto),
   text-fill-color (para colorear el interior del texto),
@@ -366,6 +375,16 @@ p {
 .card-title {
   color: yellow;
 }
+
+.contentContact {
+  border: solid .1rem white;
+  width: 30rem;
+}
+
+label {
+  color: greenyellow;
+}
+
 
 
 
