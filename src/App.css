@@ -150,7 +150,7 @@ nav {
   font-size: 2.5rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
-  margin-bottom: 1.5rem;
+  margin:.5rem auto 1.5rem;
 }
 
 .contentSkills p,
@@ -187,9 +187,9 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #f3f70a;
+  text-shadow: 0 0 1rem #fff, 0 0 .1rem #fff, 0 0 1rem #f70a51;
   -webkit-text-fill-color: #f4ecff;
-  -webkit-text-stroke-color: rgb(243, 247, 4);
+  -webkit-text-stroke-color: rgb(247, 4, 36);
   -webkit-text-stroke-width: 0.1rem;
 }
 
@@ -200,7 +200,7 @@ p {
   text-fill-color (para colorear el interior del texto),
   text-stroke-color (para el color del borde exterior), y
   text-stroke-width (para el ancho del borde). */
-  text-shadow: 0 0 1rem #fff, 0 0 1rem #fff, 0 0 6rem #e44646;
+  text-shadow: 0 0 1rem #fff, 0 0 .1rem #fff, 0 0 .6rem #e44646;
   -webkit-text-fill-color: #f4ecff;
   -webkit-text-stroke-color: rgb(247, 4, 4);
   -webkit-text-stroke-width: 0.1rem;
@@ -360,6 +360,10 @@ p {
   -webkit-text-fill-color: #f4ecff;
 }
 
+.card-deck {
+  margin: 1rem;
+}
+
 .card a {
   display: block;
 }
@@ -376,13 +380,24 @@ p {
   color: yellow;
 }
 
-.contentContact {
+.formContact {
+  padding: .5rem;
   border: solid .1rem white;
   width: 30rem;
+  margin: .5rem;
+}
+
+.formContact p {
+  text-align: center;
 }
 
 label {
   color: greenyellow;
+}
+
+.iconPdf {
+  width: 3rem;
+  margin: .5rem;
 }
 
 
