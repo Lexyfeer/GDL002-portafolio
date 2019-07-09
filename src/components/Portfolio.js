@@ -10,6 +10,7 @@ class Portfolio extends Component {
       <Fragment>
         <div className="contentPortfolio">
           <h2>Estos son algunos de mis proyectos:</h2>
+          
           <div className="card-deck">
             <div className="card">
               <img className="imgProjects card-img-top" src={cipher} alt="Cipher" />
