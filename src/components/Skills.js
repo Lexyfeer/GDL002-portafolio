@@ -23,58 +23,69 @@ class Skills extends Component {
         <div className="contentSkills">
           <h2>Habilidades técnicas</h2>
 
-          <div className="containerSkills">
-            <img className="skills" src={html5} alt="HTML 5" />
-            <img className="skills" src={css3} alt="CSS 3" />
-            <img className="skills" src={js} alt="JavaScript" />
-            <img className="skills" src={react} alt="React" />
-            <img className="skills" src={nodejs} alt="NodeJS" />
-            <img className="skills" src={npm} alt="npm" />
-            <img className="skills" src={mongodb} alt="Mongodb" />
-            <img className="skills" src={jest} alt="Jest" />
-            <img className="skills" src={github} alt="Github" />
-            <img className="skills" src={git} alt="Git" />
-            <img className="skills" src={bootstrap} alt="Bootstrap" />
-            <img className="skills" src={responsiveWeb} alt="Responsive Web" />
-            <img className="skills" src={agil} alt="Metodología agil" />
-            <img className="skills" src={kanban} alt="Metodo kanban" />
-            <img className="skills" src={scrum} alt="Scrum" />
-          </div>
-
           <div className="containerCardsTecSkills">
             <div className="cardTecSkills border-primary">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">HTML 5</li>
-                <li className="list-group-item">CSS 3</li>
-                <li className="list-group-item">JavaScript</li>
+                <li className="list-group-item">
+                  <img className="skills" src={html5} alt="HTML 5" />
+                  HTML 5</li>
+                <li className="list-group-item">
+                  <img className="skills" src={css3} alt="CSS 3" />
+                  CSS 3</li>
+                <li className="list-group-item">
+                  <img className="skills" src={js} alt="JavaScript" />
+                  JavaScript</li>
               </ul>
             </div>
             <div className="cardTecSkills border-danger">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">React</li>
-                <li className="list-group-item">NodeJS</li>
-                <li className="list-group-item">NPM</li>
+                <li className="list-group-item">
+                  <img className="skills" src={react} alt="React" />
+                  React</li>
+                <li className="list-group-item">
+                  <img className="skills" src={nodejs} alt="NodeJS" />
+                  NodeJS</li>
+                <li className="list-group-item">
+                  <img className="skills" src={npm} alt="npm" />
+                  NPM</li>
               </ul>
             </div>
             <div className="cardTecSkills border-warning">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">MongoDB</li>
-                <li className="list-group-item">Jest</li>
-                <li className="list-group-item">Github</li>
+                <li className="list-group-item">
+                  <img className="skills" src={mongodb} alt="Mongodb" />
+                  MongoDB</li>
+                <li className="list-group-item">
+                  <img className="skills" src={jest} alt="Jest" />
+                  Jest</li>
+                <li className="list-group-item">
+                  <img className="skills" src={github} alt="Github" />
+                  Github</li>
               </ul>
             </div>
             <div className="cardTecSkills border-info">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Git</li>
-                <li className="list-group-item">Bootstrap</li>
-                <li className="list-group-item">Responsive Web Design</li>
+                <li className="list-group-item">
+                  <img className="skills" src={git} alt="Git" />
+                  Git</li>
+                <li className="list-group-item">
+                  <img className="skills" src={bootstrap} alt="Bootstrap" />
+                  Bootstrap</li>
+                <li className="list-group-item">
+                  <img className="skills" src={responsiveWeb} alt="Responsive Web" />Responsive Web Design</li>
               </ul>
             </div>
             <div className="cardTecSkills border-success">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Metodología Agil</li>
-                <li className="list-group-item">Manejo de Kanban</li>
-                <li className="list-group-item">Scrum</li>
+                <li className="list-group-item">
+                  <img className="skills" src={agil} alt="Metodología agil" />
+                  Metodología Agil</li>
+                <li className="list-group-item">
+                  <img className="skills" src={kanban} alt="Metodo kanban" />
+                  Manejo de Kanban</li>
+                <li className="list-group-item">
+                  <img className="skills" src={scrum} alt="Scrum" />
+                  Scrum</li>
               </ul>
             </div>
           </div>
@@ -85,36 +96,36 @@ class Skills extends Component {
           <div className="containerCardsSoftSkills">
             <div className="cardSoftSkills border-success">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Auto aprendizaje</li>
-                <li className="list-group-item">Trabajo en equipo</li>
+                <li className="list-group-item item">Auto aprendizaje</li>
+                <li className="list-group-item item">Trabajo en equipo</li>
               </ul>
             </div>
 
             <div className="cardSoftSkills border-info">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Manejo del estrés</li>
-                <li className="list-group-item">Capacidad para resolver problemas</li>
+                <li className="list-group-item item">Manejo del estrés</li>
+                <li className="list-group-item item">Capacidad para resolver problemas</li>
               </ul>
             </div>
 
             <div className="cardSoftSkills border-warning">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Adaptabilidad</li>
-                <li className="list-group-item">Inteligencia emocional</li>
+                <li className="list-group-item item">Adaptabilidad</li>
+                <li className="list-group-item item">Inteligencia emocional</li>
               </ul>
             </div>
 
             <div className="cardSoftSkills border-danger">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Escucha activa</li>
-                <li className="list-group-item">Perserverante</li>
+                <li className="list-group-item item">Escucha activa</li>
+                <li className="list-group-item item">Perserverante</li>
               </ul>
             </div>
 
             <div className="cardSoftSkills border-primary">
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Empatía</li>
-                <li className="list-group-item">Servicio al cliente</li>
+                <li className="list-group-item item">Empatía</li>
+                <li className="list-group-item item">Servicio al cliente</li>
               </ul>
             </div>
           </div>

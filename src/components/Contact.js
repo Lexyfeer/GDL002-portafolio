@@ -38,7 +38,7 @@ class Contact extends Component {
               <textarea className="form-control" name="mensaje" rows="3"></textarea>
             </div>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" className="btnSubmit btn btn-outline-success btn-lg">Enviar</button>
 
             <img className="iconPdf" src={icoPDF} alt="Archivo PDF" />
 
