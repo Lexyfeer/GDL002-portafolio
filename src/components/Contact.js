@@ -3,10 +3,6 @@ import icoPDF from '../assets/images/icoPdf.png';
 
 
 class Contact extends Component {
-  // constructor () {
-  //   super()
-  // }
-
   render() {
     return (
       <Fragment>
