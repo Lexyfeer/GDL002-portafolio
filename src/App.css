@@ -1002,6 +1002,15 @@ label {
     margin: 1rem 1rem;
   }
 
+  .formContact {
+    width: 25rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    margin: auto .4rem;
+  }
+
 }
 
 /* Large devices (screen 2560px and up) */
