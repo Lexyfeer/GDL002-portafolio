@@ -1,21 +1,21 @@
-import React from 'react';
+import React, {Component, Fragment} from 'react';
 
 
-class Home extends React.Component {
+class Home extends Component {
   // constructor () {
   //   super()
   // }
 
   render() {
     return (
-      <div className="mainContainer">
+      <Fragment>
         <div className="contentHome">
           <div className="post">
             <h2>Nancy Rodríguez López</h2>
             <p>Front-end Developer</p>
           </div>
         </div>
-      </div>
+      </Fragment>
     )
   }
 }
