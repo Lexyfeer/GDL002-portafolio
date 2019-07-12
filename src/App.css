@@ -391,7 +391,7 @@ p {
   padding: .5rem;
   border: solid .1rem white;
   width: 30rem;
-  margin: .5rem;
+  margin: .5rem auto;
 }
 
 .formContact p {
@@ -554,10 +554,24 @@ label {
     display: inline-block;
   }
 
-  .list-group-flush
-  .list-group-item {
+  .list-group-flush .list-group-item {
     padding: .2rem;
     height: 3.8rem;
+  }
+
+  .formContact {
+    width: 17.5rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    /* color: #007bff; */
+    font-size: .9rem;
   }
 }
 
@@ -697,6 +711,21 @@ label {
     padding: .2rem;
     height: 3.8rem;
   }
+
+  .formContact {
+    width: 21rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 425px and up) */
@@ -836,6 +865,20 @@ label {
     padding: .2rem;
     height: 3.8rem;
   }
+
+  .formContact {
+    width: 23rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    font-size: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
@@ -907,8 +950,17 @@ label {
   .list-group-item {
     padding: .2rem;
     height: 3.5rem;
-
   }
+
+  .formContact {
+    width: 25rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    margin: auto .5rem;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 1440px and up) */
@@ -949,6 +1001,7 @@ label {
     width: 3rem;
     margin: 1rem 1rem;
   }
+
 }
 
 /* Large devices (screen 2560px and up) */
@@ -1035,7 +1088,6 @@ label {
   .list-group-item {
     padding: .2rem;
     height: 3.5rem;
-
   }
 }
 
@@ -1123,9 +1175,11 @@ label {
     font-size: 1.5rem;
     padding: .2rem;
     height: 3rem;
-
   }
 
+  .formContact {
+    width: 30rem;
+  }
 }
 
 
