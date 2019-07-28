@@ -11,15 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'Righteous', cursive, sans-serif; */
-  /* font-family: 'Concert One', cursive; */
-  /* font-family: 'Fredoka One', cursive, sans-serif; */
-  /* font-family: 'Bangers', cursive; */
-  /* font-family: 'Mitr', sans-serif; */
-  /* font-family: 'Carter One', cursive; */
-  /* font-family: 'Baloo', cursive; */
-  /* font-family: 'Nunito', sans-serif; */
-  font-family: 'Sniglet', cursive, sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 body {
