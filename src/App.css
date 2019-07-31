@@ -17,42 +17,37 @@ h6 {
 body {
   background-color: rgb(22, 20, 20);
   font-family: 'Montserrat', sans-serif;
-
-  /* border: solid .2rem lawngreen; */
 }
 
 /* PRINCIPALES CONTENEDORES */
 .App {
   width: auto;
   height: auto;
-  margin-top: 9rem;
+  margin-top: 8rem;
   border: solid .2rem lawngreen;
 }
 
-.contentHome,
+.contentHome {
+  width: 98%;
+  height: 100vh;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
 .contentAboutme,
 .contentPortfolio,
 .contentSkills,
 .contentContact {
-  max-width: 100%;
-  height: 65vmax;
-  margin: .7rem .5rem;
-  box-sizing: border-box;
+  width: 98%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 1rem;
 }
 
 /* BARRA DE NAVEGACION */
 nav {
-  /* width: 100%; */
   background-color: rgb(37, 37, 35);
-  /* position: fixed; */
-  /* width: 99.5%; */
-  /* height: auto; */
-  /* text-align: center; */
-  /* display: flex; */
-  /* border-bottom: 0.2rem solid rgb(255, 199, 1); */
-  /* justify-content: space-between; */
-
-  border: solid .2rem green;
+  border-bottom: 0.1rem solid rgb(255, 199, 1);
 }
 
 .navMenu {
@@ -98,8 +93,6 @@ nav {
 
 /* LOGO DE LA NAV */
 .App-logo-image {
-  /* position: relative; */
-  /* left: .3rem; */
   width: 100%;
   height: 6rem;
 
@@ -135,6 +128,15 @@ nav {
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
   margin: .5rem auto 1.5rem;
+}
+
+.contentPortfolio p {
+  text-align: justify;
+  margin: auto;
+  padding: .8rem;
+  font-size: 1rem;
+  font-weight: normal;
+  -webkit-text-fill-color: #f4ecff;
 }
 
 .contentSkills p,
@@ -236,22 +238,16 @@ p {
 
 /* REDES SOCIALES */
 .containerSocial {
-  width: auto;
+  width: 100%;
   height: auto;
-  display: flex;
+  display: inline-flex;
   padding: .5rem;
   justify-content: flex-end;
-  /* position: relative;
-  left: 14.5rem;
-  bottom: .5rem; */
-
   border: solid .2rem blue;
 }
 
 .containerSocial p {
-  width: 100%;
-  margin-top: 2rem;
-  margin-right: 2rem;
+  display: inline-flex;
   font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
@@ -278,30 +274,10 @@ p {
   border: solid greenyellow .1rem;
 }
 
-.containerSocial label {
-  display: flex;
-  margin: .5rem;
-  margin-bottom: .3rem;
-}
-
-.containerSocial a {
-  font-size: 1rem;
-  margin: 0 .5rem;
-  -webkit-text-fill-color: #f4ecff;
-  text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 6rem #e1e446;
-  justify-content: flex-end;
-}
-
-.containerSocial img {
-  margin: 0 .5rem;
-  border-radius: .5rem;
-}
-
 .containerCardsTecSkills,
 .containerCardsSoftSkills {
   width: 100%;
   display: inline-flex;
-  ;
   margin: auto;
   padding: .3rem;
   text-align: center;
@@ -342,15 +318,6 @@ p {
 .skills {
   width: 3rem;
   margin: .7rem;
-}
-
-.contentPortfolio p {
-  text-align: justify;
-  margin: auto;
-  padding: .8rem;
-  font-size: 1rem;
-  font-weight: normal;
-  -webkit-text-fill-color: #f4ecff;
 }
 
 .card-deck {
@@ -412,20 +379,11 @@ label {
     margin-top: 7rem;
   }
 
-  .mainContainer,
   .contentAboutme,
   .contentPortfolio,
   .contentSkills,
   .contentContact {
     width: auto;
-    height: auto;
-  }
-
-  .mainContainer,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
     height: auto;
   }
 
@@ -496,7 +454,7 @@ label {
     width: 100%;
     position: relative;
     left: .06rem;
-    top: -27rem;
+    top: -28rem;
     font-size: 1.2rem;
   }
 
@@ -567,20 +525,11 @@ label {
     margin-top: 7rem;
   }
 
-  .mainContainer,
   .contentAboutme,
   .contentPortfolio,
   .contentSkills,
   .contentContact {
     width: auto;
-    height: auto;
-  }
-
-  .mainContainer,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
     height: auto;
   }
 
@@ -649,7 +598,7 @@ label {
     width: 100%;
     position: relative;
     left: .06rem;
-    top: -32rem;
+    top: -34rem;
     font-size: 1.2rem;
   }
 
@@ -721,20 +670,11 @@ label {
     margin-top: 7rem;
   }
 
-  .mainContainer,
   .contentAboutme,
   .contentPortfolio,
   .contentSkills,
   .contentContact {
     width: auto;
-    height: auto;
-  }
-
-  .mainContainer,
-  .contentAboutme,
-  .contentPortfolio,
-  .contentSkills,
-  .contentContact {
     height: auto;
   }
 
@@ -796,14 +736,14 @@ label {
     width: 96%;
     padding: .5rem;
     position: relative;
-    bottom: -46rem;
+    bottom: -42rem;
   }
 
   .contentAboutme p {
     width: 100%;
     position: relative;
     left: .06rem;
-    top: -36rem;
+    top: -38rem;
     font-size: 1.2rem;
   }
 
@@ -1024,6 +964,13 @@ label {
     margin-top: 11rem;
   }
 
+  .contentAboutme h2 {
+    display: inline-flex;
+    position: relative;
+    right: -42rem;
+    font-size: 4.5rem;
+  }
+
   .contentAboutme h2,
   .contentPortfolio h2,
   .contentSkills h2,
@@ -1033,6 +980,12 @@ label {
 
   .contentAboutme p {
     font-size: 1.7rem;
+  }
+
+  .containerProfilePicture {
+    width: 27rem;
+    height: auto;
+    top: -5rem;
   }
 
   .containerHobbies {
