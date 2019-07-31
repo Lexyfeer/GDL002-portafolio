@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1564516880/cipher.png",
+        "name": "Cipher",
+        "about": "Este producto fue pensado para cualquier persona que quiera mandar un mensaje a otra u otras personas y quiera ocultarlo para que a simple vista nadie sepa de lo que esta o están hablando y solo entre ellos se entiendan mediante esta sencilla webapp.",
+        "linkProject": "https://lexyfeer.github.io/gdl-2019-01-bc-core-cipher/src/",
+        "linkReadme": "https://github.com/Lexyfeer/gdl-2019-01-bc-core-cipher/blob/master/README.md"
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1564516880/dataLovers.png",
+        "name": "DataLovers",
+        "about": "Este proyecto sirve para poder conocer más sobre habilidades, debilidades, evoluciones y características que definen a los Pokémon. Mostrando una Breve descripción del Pokémon, opción a ordenar alfabéticamente, numéricamente o poder filtrar por tipo (agua, aire, fuego, tierra).",
+        "linkProject": "https://lexyfeer.github.io/GDL002-data-lovers/src/",
+        "linkReadme": "https://github.com/Lexyfeer/GDL002-data-lovers/blob/master/README.md"
+    },
+    {
+        "id": 3,
+        "image": "",
+        "name": "Red Social",
+        "about": "El objetivo de este proyecto era realizar una red social utilizando el lenguaje de React, para esto fue necesario utilizar Firebase como base de datos y algunos frameworks como Bootstrap para el CSS y para la parte de responsive utilice los media queries.",
+        "linkProject": "https://lexyfeer.github.io/GDL002-Red-Social-React/#/",
+        "linkReadme": "https://github.com/Lexyfeer/GDL002-Red-Social-React/blob/master/README.md"
+    },
+    {
+        "id": 4,
+        "image": "",
+        "name": "Backend BurgerQueen",
+        "about": "El objetivo de este proyecto es realizar un backend para un sistema de pedidos en un restaurant, construyendo un servidor web que debe servir JSON sobre HTTP.",
+        "linkProject": "",
+        "linkReadme": "https://github.com/Lexyfeer/GDL002-burger-queen-backend"
+    }
+]
