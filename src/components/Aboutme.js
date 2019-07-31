@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { Fragment } from 'react';
 import PictureProfile from '../assets/images/PictureProfile.jpg'
 import iconMusic from '../assets/images/icon-music.png';
 import iconVideoGames from '../assets/images/icon-game.png';
@@ -6,18 +6,9 @@ import iconMovies from '../assets/images/icon-movies.png';
 import iconPumpItUp from '../assets/images/tablero pump.jpg';
 
 class Aboutme extends React.Component {
-  // constructor () {
-  //   super();
-  // this.state = {name: 'Nancy'};
-  // }
-  //   render() {
-  //     return <div>My Component {this.state.name}</div>;
-  //   }
-  // };
-
   render() {
     return (
-      <div className="mainContainer">
+      <Fragment>
         <div className="contentAboutme">
           <h2>Algo sobre mi</h2> <br />
           <div className="containerProfilePicture">
@@ -36,7 +27,7 @@ class Aboutme extends React.Component {
             <img className="hobbies" src={iconPumpItUp} alt="Pump it up" />
           </div>
         </div>
-      </div>
+      </Fragment>
     )
   }
 }
