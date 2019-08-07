@@ -29,7 +29,7 @@ body {
 
 .contentHome {
   width: 98%;
-  height: 100vh;
+  height: 60vh;
   margin: 1rem auto;
   border-radius: 1rem;
 }
@@ -606,9 +606,9 @@ label {
   .containerHobbies {
     position: relative;
     left: .4rem;
-    top: -34rem;
+    top: -36rem;
     padding: .5rem;
-    margin: 1rem auto;
+    margin: .5rem auto;
     width: 96%;
     display: inline-block;
   }
