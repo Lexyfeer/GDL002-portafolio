@@ -30,7 +30,7 @@ body {
 .contentHome {
   width: 98%;
   height: 100vh;
-  margin: 2rem auto;
+  margin: 1rem auto;
   border-radius: 1rem;
 }
 
@@ -207,6 +207,7 @@ p {
 .profilePicture {
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 /* HOBBIES */
@@ -447,7 +448,7 @@ label {
     width: 96%;
     padding: .5rem;
     position: relative;
-    bottom: -53.5rem;
+    bottom: -55rem;
   }
 
   .contentAboutme p {
@@ -736,7 +737,7 @@ label {
     width: 96%;
     padding: .5rem;
     position: relative;
-    bottom: -42rem;
+    bottom: -43.5rem;
   }
 
   .contentAboutme p {
