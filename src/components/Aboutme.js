@@ -9,12 +9,12 @@ class Aboutme extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="contentAboutme">
-          <h2>Algo sobre mi</h2> <br />
-          <div className="containerProfilePicture">
+        <div className="container-fluid contentAboutme">
+          <h2>Algo sobre mi</h2>
+          
             <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
-          </div>
-          <p>Mi nombre completo es <strong> Nancy María de la Luz Rodríguez López</strong> soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnología, estudié Licenciatura en nutrición y soy pasante de la misma, después de eso mi campo laboral había sido hasta ahora como recepcionista, secretaria o en ventas.</p> <br />
+
+          <p>Mi nombre completo es <strong> Nancy María de la Luz Rodríguez López</strong> soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnología, estudié Licenciatura en nutrición y soy pasante de la misma, después de eso mi campo laboral había sido hasta ahora como recepcionista, secretaria o en ventas.</p>
           <p>Algunos de mis pasatiempos son:</p>
           <div className="containerHobbies">
             <label>Música</label>
