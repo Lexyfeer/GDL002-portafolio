@@ -7,9 +7,8 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="containerSocial">
-                <div>
-                    <p>¡Sigueme en mis redes sociales !</p>
-                </div>
+                
+                <p>¡Sigueme en mis redes sociales !</p>
 
                 <a href="https://www.linkedin.com/in/nancyrodriguezlopez/" rel="noopener noreferrer" target="_blank">
                     <label>LinkedIn</label>
