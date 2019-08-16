@@ -1,4 +1,4 @@
-import React , { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import PictureProfile from '../assets/images/PictureProfile.jpg'
 import iconMusic from '../assets/images/icon-music.png';
 import iconVideoGames from '../assets/images/icon-game.png';
@@ -11,11 +11,14 @@ class Aboutme extends React.Component {
       <Fragment>
         <div className="container-fluid contentAboutme">
           <h2>Algo sobre mi</h2>
-          
-            <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
 
-          <p>Mi nombre completo es <strong> Nancy María de la Luz Rodríguez López</strong> soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnología, estudié Licenciatura en nutrición y soy pasante de la misma, después de eso mi campo laboral había sido hasta ahora como recepcionista, secretaria o en ventas.</p>
-          <p>Algunos de mis pasatiempos son:</p>
+          <img src={PictureProfile} className="profilePicture" alt="Foto de perfil" />
+
+          
+            <p>Mi nombre completo es <strong> Nancy María de la Luz Rodríguez López</strong> soy de Guadalajara, Jalisco, antes de adentrarme en el mundo de la tecnología, estudié Licenciatura en nutrición y soy pasante de la misma, después de eso mi campo laboral había sido hasta ahora como recepcionista, secretaria o en ventas.</p>
+            <p>Algunos de mis pasatiempos son:</p>
+          
+
           <div className="containerHobbies">
             <label>Música</label>
             <img className="hobbies" src={iconMusic} alt="Escuchar música" />

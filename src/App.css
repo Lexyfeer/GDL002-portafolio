@@ -30,7 +30,7 @@ body {
 
 .contentHome {
   width: 98%;
-  height: 60vh;
+  height: 62vh;
   margin: 1rem auto;
   border-radius: 1rem;
 }
@@ -41,7 +41,7 @@ body {
 .contentContact {
   width: 98%;
   height: auto;
-  margin: 0 auto;
+  margin: .5rem auto 1rem;
   border-radius: 1rem;
 }
 
@@ -150,15 +150,15 @@ nav {
 }
 
 .contentAboutme p {
-  width: 65%;
-  text-align: justify;
-  position: relative;
-  right: 1rem;
-  padding: .8rem;
   font-size: 1.3rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
-  /* float: right; */
+  width: 40rem;
+  padding: .8rem;
+  text-align: justify;
+  position: relative;
+  left: 20.7rem;
+  top: -27rem;
 }
 
 .contentHome h2,
@@ -206,10 +206,9 @@ p {
   width: 60%;
   text-align: center;
   position: relative;
-  right: -2rem;
+  left: 23rem;
+  top: -25rem;
   display: inline-block;
-  justify-content: space-around;
-  margin-bottom: 13rem;
 
   border: solid .1rem mediumturquoise;
 }
@@ -269,20 +268,19 @@ p {
 .containerCardsTecSkills,
 .containerCardsSoftSkills {
   width: 100%;
-  display: inline-flex;
+  display: inline-block;
   margin: auto;
   padding: .3rem;
   text-align: center;
-
   border: solid .2rem red;
 }
 
 .cardTecSkills,
 .cardSoftSkills {
+  width: 15rem;
   display: inline-block;
   padding: .2rem;
   margin: auto .5em;
-  width: 13rem;
   border: solid .1rem;
   border-radius: .5rem;
 }
@@ -837,8 +835,7 @@ label {
 
   .contentAboutme,
   .contentPortfolio,
-  .contentSkills
-  .contentContact {
+  .contentSkills .contentContact {
     max-width: 100%;
     /* height: auto; */
     margin: .7rem .5rem;
