@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <Fragment>
         <div className="contentContact">
-          <h2>¿Te gustaría que trabajemos juntos?</h2>
+          <h2>¿Te gustaría que trabajaramos juntos?</h2>
 
           <a href="mailto:lexyfeer@hotmail.com?Subject=Vi%20tu%20portafolio%20y%20me%20interesa%20trabajar%20contigo" rel="noopener noreferrer">
               ENVÍAME UN CORREO AQUÍ

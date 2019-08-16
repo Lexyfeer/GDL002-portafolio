@@ -4,7 +4,7 @@ import Logo from '../assets/images/LogoPortfolio.png';
 import { Navbar, Nav } from 'react-bootstrap';
 
 const Navigation = () => (
-        <Navbar variant="dark" expand="lg" fixed="top">
+        <Navbar variant="dark" expand="md" fixed="top">
             <Navbar.Brand>
                 <Link to="/">
                     <img className="App-logo-image" src={Logo} alt="logo" />
