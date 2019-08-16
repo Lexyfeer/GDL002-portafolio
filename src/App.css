@@ -692,8 +692,9 @@ label {
   .contentPortfolio,
   .contentSkills,
   .contentContact {
-    width: auto;
+    width: 95%;
     height: auto;
+    margin: .5rem auto 1rem;
   }
 
   .navbar-toggler {
@@ -759,14 +760,14 @@ label {
     width: 100%;
     position: relative;
     left: .06rem;
-    top: -38rem;
+    top: -35rem;
     font-size: 1.2rem;
   }
 
   .containerHobbies {
     position: relative;
     left: 1rem;
-    top: -38rem;
+    top: -37rem;
     padding: .5rem;
     margin: 1rem auto;
     width: 92%;
