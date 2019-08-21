@@ -144,7 +144,7 @@ nav {
 .contentContact p {
   text-align: justify;
   padding: .8rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
 }
@@ -334,6 +334,19 @@ p {
   color: yellow;
 }
 
+.contactMe li {
+  color: wheat;
+  margin: .5rem 2rem;
+  padding: 1rem;
+}
+
+.contentContact h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 1rem auto;
+}
+
 .formContact {
   width: 30rem;
   margin: .5rem auto;
@@ -347,6 +360,7 @@ p {
 }
 
 .contentContact a {
+  color: yellow;
   margin: .5rem;
 }
 
@@ -507,6 +521,11 @@ label {
   .list-group-flush .list-group-item {
     padding: .2rem;
     height: 3.8rem;
+  }
+
+  .contactMe li {
+    padding: 1rem;
+    margin: .5rem 2.5rem;
   }
 
   .formContact {
@@ -991,7 +1010,7 @@ label {
     display: inline-flex;
     position: relative;
     right: -42rem;
-    font-size: 4.5rem;
+    top: -12rem;
   }
 
   .contentAboutme h2,
@@ -1002,19 +1021,20 @@ label {
   }
 
   .contentAboutme p {
+    width: 65%;
     font-size: 1.7rem;
+    left: 29rem;
   }
 
-  .containerProfilePicture {
-    width: 27rem;
-    height: auto;
-    top: -5rem;
+  .profilePicture {
+    width: 25rem;
+    right: 23rem;
+    top: 3rem;
   }
 
   .containerHobbies {
     width: 55%;
-    right: -3rem;
-    margin-bottom: 7rem;
+    left: 33rem;
   }
 
   .hobbies {
