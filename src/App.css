@@ -144,7 +144,7 @@ nav {
 .contentContact p {
   text-align: justify;
   padding: .8rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
   -webkit-text-fill-color: #f4ecff;
 }
@@ -334,8 +334,17 @@ p {
   color: yellow;
 }
 
-ol contactMe {
+.contactMe li {
   color: wheat;
+  margin: .5rem 2rem;
+  padding: 1rem;
+}
+
+.contentContact h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin: 1rem auto;
 }
 
 .formContact {
@@ -351,6 +360,7 @@ ol contactMe {
 }
 
 .contentContact a {
+  color: yellow;
   margin: .5rem;
 }
 
@@ -513,9 +523,9 @@ label {
     height: 3.8rem;
   }
 
-  ol contactMe li {
+  .contactMe li {
     padding: 1rem;
-    margin: .5rem;
+    margin: .5rem 2.5rem;
   }
 
   .formContact {
