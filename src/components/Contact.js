@@ -53,7 +53,7 @@ class Contact extends Component {
 
             <img className="iconPdf" src={icoPDF} alt="Archivo PDF" />
 
-            <a href="https://res.cloudinary.com/lexyfeer/image/upload/v1570808909/Nancy_maria_de_la_luz_rodriguez_lopez.pdf">
+            <a href="https://res.cloudinary.com/lexyfeer/image/upload/v1571146878/Nancy_maria_de_la_luz_rodriguez_lopez.pdf">
               DESCARGA MI CV AQUÍ
           </a>
           </form>
