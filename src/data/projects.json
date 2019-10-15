@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "image": "",
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1571147411/redSocial.png",
         "name": "Red Social",
         "about": "El objetivo de este proyecto era realizar una red social utilizando el lenguaje de React, para esto fue necesario utilizar Firebase como base de datos y algunos frameworks como Bootstrap para el CSS y para la parte de responsive utilice los media queries.",
         "linkProject": "https://lexyfeer.github.io/GDL002-Red-Social-React/#/",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "",
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1571147691/notFound.png",
         "name": "Backend BurgerQueen",
         "about": "El objetivo de este proyecto es realizar un backend para un sistema de pedidos en un restaurant, construyendo un servidor web que debe servir JSON sobre HTTP.",
         "linkProject": "",
