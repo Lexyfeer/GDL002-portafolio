@@ -322,6 +322,12 @@ p {
   display: block;
 }
 
+.chatLauncher {
+  color:rgb(6, 129, 245);
+  background-color: transparent;
+  border: transparent;
+}
+
 .card-img-top {
   height: 15rem;
 }
