@@ -2,10 +2,9 @@
   "name": "gdl002-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Lexyfeer.github.io/GDL002-portafolio",
+  "homepage": "https://lexyfeer.github.io/GDL002-portafolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
     "jquery": "^3.5.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -35,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
