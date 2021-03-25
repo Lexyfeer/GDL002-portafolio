@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/GDL002-portafolio/static/css/main.31b5245d.chunk.css",
-    "main.js": "/GDL002-portafolio/static/js/main.3d2a733b.chunk.js",
-    "main.js.map": "/GDL002-portafolio/static/js/main.3d2a733b.chunk.js.map",
-    "runtime~main.js": "/GDL002-portafolio/static/js/runtime~main.a23a9136.js",
-    "runtime~main.js.map": "/GDL002-portafolio/static/js/runtime~main.a23a9136.js.map",
-    "static/js/2.3c295d81.chunk.js": "/GDL002-portafolio/static/js/2.3c295d81.chunk.js",
-    "static/js/2.3c295d81.chunk.js.map": "/GDL002-portafolio/static/js/2.3c295d81.chunk.js.map",
+    "main.css": "/GDL002-portafolio/static/css/main.e1e8139d.chunk.css",
+    "main.js": "/GDL002-portafolio/static/js/main.6347db4f.chunk.js",
+    "main.js.map": "/GDL002-portafolio/static/js/main.6347db4f.chunk.js.map",
+    "runtime-main.js": "/GDL002-portafolio/static/js/runtime-main.deba208c.js",
+    "runtime-main.js.map": "/GDL002-portafolio/static/js/runtime-main.deba208c.js.map",
+    "static/js/2.c591561c.chunk.js": "/GDL002-portafolio/static/js/2.c591561c.chunk.js",
+    "static/js/2.c591561c.chunk.js.map": "/GDL002-portafolio/static/js/2.c591561c.chunk.js.map",
     "index.html": "/GDL002-portafolio/index.html",
-    "precache-manifest.321f83148a0a0514f71730b9fad97e46.js": "/GDL002-portafolio/precache-manifest.321f83148a0a0514f71730b9fad97e46.js",
+    "precache-manifest.8dbe7a36d0af7f94771fdcc513e00210.js": "/GDL002-portafolio/precache-manifest.8dbe7a36d0af7f94771fdcc513e00210.js",
     "service-worker.js": "/GDL002-portafolio/service-worker.js",
-    "static/css/main.31b5245d.chunk.css.map": "/GDL002-portafolio/static/css/main.31b5245d.chunk.css.map",
+    "static/css/main.e1e8139d.chunk.css.map": "/GDL002-portafolio/static/css/main.e1e8139d.chunk.css.map",
+    "static/js/2.c591561c.chunk.js.LICENSE.txt": "/GDL002-portafolio/static/js/2.c591561c.chunk.js.LICENSE.txt",
     "static/media/LogoPortfolio.png": "/GDL002-portafolio/static/media/LogoPortfolio.addc13e4.png",
     "static/media/PictureProfile.jpg": "/GDL002-portafolio/static/media/PictureProfile.ea34610c.jpg",
     "static/media/agil2.png": "/GDL002-portafolio/static/media/agil2.47631fa2.png",
@@ -29,5 +30,11 @@
     "static/media/responsive1.png": "/GDL002-portafolio/static/media/responsive1.cdfb7975.png",
     "static/media/scrum3.png": "/GDL002-portafolio/static/media/scrum3.5d5904f6.png",
     "static/media/tablero pump.jpg": "/GDL002-portafolio/static/media/tablero pump.a9a0d948.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deba208c.js",
+    "static/js/2.c591561c.chunk.js",
+    "static/css/main.e1e8139d.chunk.css",
+    "static/js/main.6347db4f.chunk.js"
+  ]
 }

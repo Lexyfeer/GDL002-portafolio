@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf70189105e42ce70ed178d4031b9580",
+    "revision": "e87bf8cd12a9e2484661866e77690cb3",
     "url": "/GDL002-portafolio/index.html"
   },
   {
-    "revision": "3afcb6467bca4e140c5d",
-    "url": "/GDL002-portafolio/static/css/main.31b5245d.chunk.css"
+    "revision": "898658c45e54153fa6fb",
+    "url": "/GDL002-portafolio/static/css/main.e1e8139d.chunk.css"
   },
   {
-    "revision": "51690703674b7e164f14",
-    "url": "/GDL002-portafolio/static/js/2.3c295d81.chunk.js"
+    "revision": "0d6e321de60971a68d1e",
+    "url": "/GDL002-portafolio/static/js/2.c591561c.chunk.js"
   },
   {
-    "revision": "3afcb6467bca4e140c5d",
-    "url": "/GDL002-portafolio/static/js/main.3d2a733b.chunk.js"
+    "revision": "f88b36470b8b650da4a18244e35dd001",
+    "url": "/GDL002-portafolio/static/js/2.c591561c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6a2905828adbec14ecb",
-    "url": "/GDL002-portafolio/static/js/runtime~main.a23a9136.js"
+    "revision": "898658c45e54153fa6fb",
+    "url": "/GDL002-portafolio/static/js/main.6347db4f.chunk.js"
+  },
+  {
+    "revision": "8d8a0b10a869635fb3bf",
+    "url": "/GDL002-portafolio/static/js/runtime-main.deba208c.js"
   },
   {
     "revision": "addc13e43004a6cde9da13b53355c16d",
