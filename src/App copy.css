@@ -194,17 +194,6 @@ p {
 }
 
 /* FOTO DE PERFIL */
-.containerProfilePicture {
-  width: 32%;
-  height: auto;
-  margin-left: .5rem;
-  position: relative;
-  float: left;
-  padding: .5rem;
-
-  border: solid .2rem chartreuse;
-}
-
 .profilePicture {
   width: 100%;
   height: auto;
@@ -459,13 +448,6 @@ label {
     font-size: 1rem;
   }
 
-  .containerProfilePicture {
-    width: 96%;
-    padding: .5rem;
-    position: relative;
-    bottom: -55rem;
-  }
-
   .containerHobbies {
     position: relative;
     left: .4rem;
@@ -597,13 +579,6 @@ label {
   .containerSocial p {
     margin-top: .5rem;
     font-size: 1rem;
-  }
-
-  .containerProfilePicture {
-    width: 96%;
-    padding: .5rem;
-    position: relative;
-    bottom: -50.5rem;
   }
 
   .contentAboutme p {
@@ -744,13 +719,6 @@ label {
     font-size: 1rem;
   }
 
-  .containerProfilePicture {
-    width: 96%;
-    padding: .5rem;
-    position: relative;
-    bottom: -43.5rem;
-  }
-
   .contentAboutme p {
     width: 100%;
     position: relative;
@@ -821,21 +789,10 @@ label {
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 @media only screen and (max-width: 768px) and (min-width: 426px) {
-
-  .contentPortfolio,
-  .contentSkills {
-    max-width: 100%;
-    height: 160vmax;
-    margin: .7rem .5rem;
-    box-sizing: border-box;
-  }
-
-  .contentAboutme,
-  .contentContact {
-    max-width: 100%;
-    height: 100vmax;
-    margin: .7rem .5rem;
-    box-sizing: border-box;
+  .navMenuLink {
+    width: 100%;
+    height: 2.5rem;
+    margin: .1rem;
   }
 
   .contentHome h2 {
@@ -847,15 +804,16 @@ label {
     margin: 0;
   }
 
-  .navMenuLink {
-    width: 100%;
-    height: 2.5rem;
-    margin: .1rem;
+  .contentAboutme,
+  .contentContact {
+    max-width: 100%;
+    height: 100vmax;
+    margin: .7rem .5rem;
+    box-sizing: border-box;
   }
 
-  .containerProfilePicture {
-    width: 51%;
-    margin: auto .3rem;
+  .profilePicture {
+    height: 50%;
   }
 
   .contentAboutme p {
@@ -867,9 +825,6 @@ label {
   }
 
   .containerHobbies {
-    position: relative;
-    left: -.01rem;
-    width: 47%;
     display: inline-block;
   }
 
@@ -882,9 +837,12 @@ label {
     font-size: 1.1rem;
   }
 
-  .skills {
-    width: 3rem;
-    margin: .5rem 1rem;
+  .contentPortfolio,
+  .contentSkills {
+    max-width: 100%;
+    height: 160vmax;
+    margin: .7rem .5rem;
+    box-sizing: border-box;
   }
 
   .containerCardsTecSkills,
@@ -902,6 +860,11 @@ label {
     width: 13rem;
     margin: .1rem;
     display: inline-block;
+  }
+
+  .skills {
+    width: 3rem;
+    margin: .5rem 1rem;
   }
 
   .list-group-item {
@@ -992,12 +955,6 @@ label {
 
   .contentAboutme p {
     font-size: 1.7rem;
-  }
-
-  .containerProfilePicture {
-    width: 27rem;
-    height: auto;
-    top: -5rem;
   }
 
   .containerHobbies {
