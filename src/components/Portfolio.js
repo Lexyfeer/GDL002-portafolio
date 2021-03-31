@@ -38,7 +38,7 @@ export default function Portfolio() {
   return (
     <Fragment>
       <div className='contentPortfolio'>
-        <h2>Estos son algunos de mis proyectos:</h2>
+        <h2 className="neon">Estos son algunos de mis proyectos:</h2>
 
         <div className='card-deck'>
           {dataProjects.map((projectDetail, index) => {
@@ -79,7 +79,7 @@ export default function Portfolio() {
 
           <div className='card'>
             <img
-              className='imgProjects card-img-top'
+              className='imgProjects card-img-top imgChatBot'
               src='https://res.cloudinary.com/lexyfeer/image/upload/v1616612647/Screen_Shot_2021-03-24_at_1.03.47_p.m..png'
               alt='Chatbot de Mixologia'
               title='Chatbot de Mixologia'

@@ -1,27 +1,27 @@
 import React, { Component, Fragment } from 'react';
-import html5 from '../assets/images/html5.png';
+
+import agil from '../assets/images/agil2.png';
+import bootstrap from '../assets/images/bootstrap1.png';
 import css3 from '../assets/images/css3.png';
+import git from '../assets/images/git1.png';
+import github from '../assets/images/github.jpg';
+import html5 from '../assets/images/html5.png';
+import jest from '../assets/images/jest.jpg';
 import js from '../assets/images/js.png';
-import react from '../assets/images/react.png';
+import kanban from '../assets/images/kanban3.jpg';
+import mongodb from '../assets/images/mongodb1.png';
 import nodejs from '../assets/images/nodejs1.png';
 import npm from '../assets/images/npmlogo.png';
-import mongodb from '../assets/images/mongodb1.png';
-import jest from '../assets/images/jest.jpg';
-import github from '../assets/images/github.jpg';
-import git from '../assets/images/git1.png';
-import bootstrap from '../assets/images/bootstrap1.png';
+import react from '../assets/images/react.png';
 import responsiveWeb from '../assets/images/responsive1.png';
-import agil from '../assets/images/agil2.png';
-import kanban from '../assets/images/kanban3.jpg';
 import scrum from '../assets/images/scrum3.png';
-
 
 class Skills extends Component {
   render() {
     return (
       <Fragment>
         <div className="contentSkills">
-          <h2>Habilidades técnicas</h2>
+          <h2 className="neon">Habilidades técnicas</h2>
 
           <div className="containerCardsTecSkills">
             <div className="cardTecSkills border-primary">

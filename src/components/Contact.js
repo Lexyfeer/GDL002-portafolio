@@ -1,13 +1,13 @@
 import React, { Component, Fragment } from 'react';
-import icoPDF from '../assets/images/icoPdf.png';
 
+import icoPDF from '../assets/images/icoPdf.png';
 
 class Contact extends Component {
   render() {
     return (
       <Fragment>
         <div className="contentContact">
-          <h2>¿Te gustaría que trabajáramos juntos?</h2>
+          <h2 className="neon">¿Te gustaría que trabajáramos juntos?</h2>
 
           <p> Tan solo:</p>
           <ol className="contactMe">
@@ -58,7 +58,7 @@ class Contact extends Component {
           </a>
           </form>
 
-          <h3>¡HASTA PRONTO!</h3>
+          <h3 className="neon">¡HASTA PRONTO!</h3>
         </div>
       </Fragment>
     )
