@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1564516880/cipher.png",
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/c_scale,w_300/v1564516880/cipher.png",
         "name": "Cipher",
         "about": "Este producto fue pensado para cualquier persona que quiera mandar un mensaje a otra u otras personas y quiera ocultarlo para que a simple vista nadie sepa de lo que esta o están hablando y solo entre ellos se entiendan mediante esta sencilla webapp.",
         "linkProject": "https://lexyfeer.github.io/gdl-2019-01-bc-core-cipher/src/",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "https://res.cloudinary.com/lexyfeer/image/upload/v1564516880/dataLovers.png",
+        "image": "https://res.cloudinary.com/lexyfeer/image/upload/c_scale,w_300/v1564516880/dataLovers.png",
         "name": "DataLovers",
         "about": "Este proyecto sirve para poder conocer más sobre habilidades, debilidades, evoluciones y características que definen a los Pokémon. Mostrando una Breve descripción del Pokémon, opción a ordenar alfabéticamente, numéricamente o poder filtrar por tipo (agua, aire, fuego, tierra).",
         "linkProject": "https://lexyfeer.github.io/GDL002-data-lovers/src/",
