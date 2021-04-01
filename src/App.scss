@@ -1,0 +1,1626 @@
+/* RESET DE MARGENES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+body {
+  background-color: rgb(22, 20, 20);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+.App {
+  width: auto;
+  height: auto;
+  border: solid .2rem lawngreen;
+}
+
+.contentAboutme,
+.contentPortfolio,
+.contentSkills,
+.contentContact {
+  & {
+    width: 98%;
+    height: auto;
+    margin: .5rem auto 1rem;
+    border-radius: 1rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    -webkit-text-fill-color: #f4ecff;
+    margin: .5rem auto 1.5rem;
+  }
+}
+
+/* LOGO DE LA NAV */
+.App-logo-image {
+  width: 100%;
+  height: 4rem;
+  border: solid .2rem red;
+}
+
+/* BARRA DE NAVEGACION - NAVBAR */
+nav {
+  background-color: rgb(37, 37, 35);
+  border-bottom: 0.1rem solid rgb(255, 199, 1);
+}
+
+.navMenuLink {
+  & {
+    width: 7.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    border: 0.08rem solid white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    transition: all 0.4s ease-in-out;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #e1e446;
+    border: 0.08rem solid rgba(248, 5, 5, 0.822);
+    cursor: pointer;
+  }
+
+  &:focus {
+    font-size: 1rem;
+    border: 0.2rem solid rgb(232, 248, 5);
+    text-shadow: 0 0 1rem #fff, 0 0 5rem #fff, 0 0 5rem #fff, 0 0 10rem #e1e446, 0 0 10rem #e1e446;
+    -webkit-text-fill-color: #f4ecff;
+    -webkit-text-stroke-color: rgb(247, 230, 4);
+    -webkit-text-stroke-width: 0.1rem;
+  }
+
+  h6 {
+    margin: .6rem;
+    text-align: center;
+  }
+}
+
+/* INICIO - HOME */
+.contentHome {
+  & {
+    width: 98%;
+    height: 100vh;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-image: url('https://res.cloudinary.com/lexyfeer/image/upload/v1616774510/style-3411108_1920.jpg');
+    background-size: cover;
+    border: solid 0.2rem rgb(214, 12, 12);
+  }
+
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Sniglet', sans-serif;
+    font-size: 5.5rem;
+    /* utilizamos text-shadow (para dar resplandor al texto),
+    text-fill-color (para colorear el interior del texto),
+    text-stroke-color (para el color del borde exterior), y
+    text-stroke-width (para el ancho del borde). */
+    text-shadow: 0 0 1rem #fff, 0 0 .1rem #fff, 0 0 1rem #f70a51;
+    -webkit-text-fill-color: #f4ecff;
+    -webkit-text-stroke-color: rgb(247, 4, 36);
+    -webkit-text-stroke-width: 0.1rem;
+  }
+
+  p {
+    font-family: 'Sniglet', sans-serif;
+    font-size: 3.5rem;
+    text-align: end;
+    /* utilizamos text-shadow (para dar resplandor al texto),
+    text-fill-color (para colorear el interior del texto),
+    text-stroke-color (para el color del borde exterior), y
+    text-stroke-width (para el ancho del borde). */
+    text-shadow: 0 0 1rem #fff, 0 0 .1rem #fff, 0 0 .6rem #e44646;
+    -webkit-text-fill-color: #f4ecff;
+    -webkit-text-stroke-color: rgb(247, 4, 4);
+    -webkit-text-stroke-width: 0.1rem;
+  }
+}
+
+.txtHome {
+  & {
+    padding-top: 5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #f4ecff;
+    -webkit-text-fill-color: #f4ecff;
+    -webkit-text-stroke-color: #f4ecff;
+    -webkit-text-stroke-width: .01rem;
+    text-shadow: .1rem .1rem .2rem black, 0 0 .5rem yellow, 0 0 0.2rem blue;
+    text-align: justify;
+  }
+}
+
+/* SOBRE MI - ABOUT ME */
+.contentAboutme {
+  border: solid 0.2rem rgb(234, 250, 4);
+}
+
+.infoAboutMe {
+  display: flex;
+  flex-direction: row;
+}
+
+/* FOTO DE PERFIL */
+.profilePicture {
+  & {
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+
+  img {
+    width: 20rem;
+    height: 100%;
+    border-radius: 1rem;
+  }
+}
+
+.txtAboutMe {
+  & {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    -webkit-text-fill-color: #f4ecff;
+    text-align: justify;
+  }
+}
+
+/* PASATIEMPOS - HOBBIES */
+.containerHobbies {
+  & {
+    width: 60%;
+    margin-left: 30%;
+    text-align: center;
+    display: inline-block;
+    border: solid .1rem mediumturquoise;
+  }
+
+  label {
+    font-size: 1rem;
+    display: inline-block;
+    margin: .5rem;
+    margin-bottom: .3rem;
+    -webkit-text-fill-color: #f4ecff;
+    text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .1rem #e1e446;
+  }
+
+  .hobbies {
+    width: 4.5rem;
+    margin: 1rem auto;
+  }
+}
+
+/* PORTAFOLIO - PORTFOLIO */
+.contentPortfolio {
+  & {
+    border: solid 0.2rem rgb(238, 3, 199);
+  }
+
+  p {
+    text-align: justify;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: normal;
+    -webkit-text-fill-color: #f4ecff;
+  }
+}
+
+/* CARDS PORTAFOLIO */
+.card-deck {
+  margin: 1rem;
+}
+
+.card {
+  & {
+    margin-left: .3rem;
+    margin-right: .3rem;
+  }
+
+  &.card-img-top {
+    height: 15rem;
+  }
+
+  .card-body {
+    & {
+      background-color: black;
+    }
+
+    .card-title {
+      color: yellow;
+    }
+
+    a {
+      display: block;
+      color: #10e8f0;
+    }
+  }
+}
+
+.chatLauncher {
+  color: #10e8f0;
+  background-color: transparent;
+  border: transparent;
+}
+
+.imgChatBot {
+  height: auto;
+}
+
+/* HABILIDADES - SKILLS */
+.contentSkills {
+  border: solid 0.2rem rgb(6, 245, 66);
+}
+
+.containerCardsTecSkills,
+.containerCardsSoftSkills {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  padding: .3rem;
+  text-align: center;
+  border: solid .2rem red;
+}
+
+.cardTecSkills,
+.cardSoftSkills {
+  width: 15rem;
+  display: inline-block;
+  padding: .2rem;
+  margin: auto .5em;
+  border: solid .1rem;
+  border-radius: .5rem;
+}
+
+.list-group-flush .list-group-item {
+  & {
+    text-align: start;
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 4.5rem;
+    background: repeating-linear-gradient(45deg, black, transparent 1rem);
+    -webkit-text-fill-color: whitesmoke;
+    text-shadow: 0 0 1rem #fff, 0 0 5.5rem #e1e446;
+  }
+
+  .skills {
+    width: 3rem;
+    margin: .7rem;
+  }
+}
+
+.item {
+  text-align: center;
+  justify-content: center;
+}
+
+/* CONTACTO - CONTAC ME */
+.contentContact {
+  & {
+    border: solid 0.2rem rgb(248, 7, 128);
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  p {
+    text-align: justify;
+    padding: 0 .8rem;
+    font-size: 1rem;
+    font-weight: normal;
+    -webkit-text-fill-color: #f4ecff;
+  }
+
+  .contactMe li {
+    color: wheat;
+    margin: 0 2rem;
+  }
+
+  a {
+    color: yellow;
+    margin: .5rem;
+  }
+}
+
+.iconPdf {
+  width: 3rem;
+  margin: .5rem;
+}
+
+
+.formContact {
+  width: 30rem;
+  margin: .5rem auto;
+  padding: .5rem;
+  border: solid .1rem white;
+  border-radius: .5rem;
+}
+
+.formContact p {
+  text-align: center;
+}
+
+label {
+  color: greenyellow;
+}
+
+.btnSubmit {
+  margin: auto 2rem;
+}
+
+/* REDES SOCIALES - FOOTER */
+.containerSocial {
+  & {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+    border: solid .2rem blue;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    -webkit-text-fill-color: #f4ecff;
+  }
+
+  label {
+    display: flex;
+    margin: .5rem;
+    margin-bottom: .3rem;
+  }
+
+  a {
+    display: flex;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    -webkit-text-fill-color: #f4ecff;
+    text-shadow: 0 0 0.1rem #fff, 0 0 0.2rem #fff, 0 0 0.6rem red;
+    justify-content: flex-end;
+  }
+}
+
+.footerLinks {
+  & {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    margin: 0 .5rem;
+    height: 2.5rem;
+  }
+}
+
+.linkedIn {
+  box-shadow: 0 0 .5rem #46aae4, 0 0 .3rem #46aae4, 0 0 .1rem #46aae4;
+}
+
+/* =========================================================================================== */
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 320px and down) */
+
+@media only screen and (max-width: 320px) {
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    & {
+      width: 95%;
+      height: auto;
+      margin: .5rem auto 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      padding: .3rem;
+      margin: 0 auto;
+    }
+  }
+
+  /* LOGO DE LA NAV */
+  .navbar-brand {
+    width: 70%;
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .40rem;
+  }
+
+  .App-logo-image {
+    width: 100%;
+    height: 3rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .navMenuLink {
+    & {
+      width: 100%;
+      height: 2.5rem;
+      margin: .2rem;
+    }
+
+    h6 {
+      margin: .4rem auto;
+    }
+  }
+
+  /* INICIO - HOME */
+  .contentHome {
+    & {
+      width: 95%;
+      height: auto;
+      margin: .5rem auto 1rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+      text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
+      -webkit-text-stroke-color: rgb(247, 230, 4);
+    }
+
+    p {
+      font-size: 2.5rem;
+      text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
+      margin-bottom: 0;
+    }
+  }
+
+  .txtHome {
+    & {
+      padding-top: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      -webkit-text-stroke-width: .01rem;
+      text-shadow: .01rem .01rem .02rem black, 0 0 1rem yellow, 0 0 0.02rem blue;
+    }
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .infoAboutMe {
+    flex-direction: column-reverse;
+  }
+
+  /* FOTO DE PERFIL */
+  .profilePicture {
+    & {
+      margin: 0;
+    }
+
+    img {
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    & {
+      width: 100%;
+      margin: .5rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    label {
+      width: 7rem;
+      font-size: 1rem;
+    }
+
+    .hobbies {
+      margin: .5rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  /* HABILIDADES - SKILLS */
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: justify;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 100%;
+    margin: .1rem;
+    display: inline-block;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      font-size: 1rem;
+      padding: .2rem;
+      height: 3rem;
+    }
+
+    .skills {
+      width: 2.5rem;
+      margin: 0.3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .contentContact {
+    .contactMe li {
+      margin: .5rem 2.5rem;
+    }
+
+    a {
+      font-size: .9rem;
+    }
+  }
+
+  .formContact {
+    width: 17.5rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial {
+    p {
+      justify-content: left;
+      margin-left: .5rem;
+      margin-bottom: .3;
+      font-size: 1rem;
+    }
+
+    label {
+      align-items: center;
+    }
+
+    a {
+      font-size: .8rem;
+    }
+  }
+
+  .footerLinks {
+    & {
+      justify-content: left;
+    }
+
+    img {
+      margin: 0;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+/* Extra small devices (phones, 375px and down) */
+
+@media only screen and (max-width: 375px) and (min-width: 321px) {
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    & {
+      width: 95%;
+      height: auto;
+      margin: .5rem auto 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  /* LOGO DE LA NAV */
+  .navbar-brand {
+    width: 70%;
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .40rem;
+  }
+
+  .App-logo-image {
+    width: 100%;
+    height: 3rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .navMenuLink {
+    & {
+      width: 100%;
+      height: 2.5rem;
+      margin: .2rem;
+    }
+
+    h6 {
+      margin: .4rem auto;
+    }
+  }
+
+  /* INICIO - HOME */
+  .contentHome {
+    & {
+      height: auto;
+    }
+
+    h2 {
+      font-size: 3rem;
+      text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
+      -webkit-text-stroke-color: rgb(247, 230, 4);
+    }
+
+    p {
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
+      margin-bottom: 0;
+    }
+  }
+
+  .txtHome {
+    & {
+      padding-top: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: justify;
+      -webkit-text-stroke-width: .01rem;
+      text-shadow: .01rem .01rem .02rem black, 0 0 1rem blue, 0 0 0.02rem blue;
+    }
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme p {
+    font-size: 1rem;
+  }
+
+  .infoAboutMe {
+    flex-direction: column-reverse;
+  }
+
+  /* FOTO DE PERFIL */
+  .profilePicture {
+    & {
+      margin: 0;
+    }
+
+    img {
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    & {
+      width: 100%;
+      margin: .5rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    label {
+      font-size: 1rem;
+    }
+
+    .hobbies {
+      margin: .5rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  /* HABILIDADES - SKILLS */
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: justify;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 100%;
+    margin: .1rem;
+    display: inline-block;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      padding: .2rem;
+      height: 3.8rem;
+    }
+
+    .skills {
+      width: 3rem;
+      margin: 0.3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .contentContact a {
+    font-size: 1rem;
+  }
+
+  .formContact {
+    width: 21rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial p {
+    justify-content: left;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .footerLinks {
+    & {
+      justify-content: left;
+    }
+
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 425px and up) */
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    & {
+      width: 95%;
+      height: auto;
+      margin: .5rem auto 1rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  /* LOGO DE LA NAV */
+  .navbar-brand {
+    width: 70%;
+    margin: 0;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .40rem;
+  }
+
+  .App-logo-image {
+    width: 100%;
+    height: 3rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .navMenuLink {
+    & {
+      width: 100%;
+      height: 2.5rem;
+      margin: .2rem;
+    }
+
+    h6 {
+      margin: .4rem auto;
+    }
+  }
+
+  /* INICIO - HOME */
+  .contentHome {
+    & {
+      height: auto;
+    }
+
+    h2 {
+      font-size: 3rem;
+      text-shadow: 0 0 0.1rem #fff, 0 0 1rem #fff, 0 0 1rem #e1e446;
+      -webkit-text-stroke-color: rgb(247, 230, 4);
+    }
+
+    p {
+      font-size: 2.5rem;
+      text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 .6rem #e44646;
+      margin-bottom: 0;
+    }
+  }
+
+  .txtHome {
+    & {
+      padding-top: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: justify;
+      -webkit-text-stroke-width: .01rem;
+      text-shadow: .01rem .01rem .02rem black, 0 0 1rem blue, 0 0 0.02rem blue;
+    }
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .infoAboutMe {
+    flex-direction: column-reverse;
+  }
+
+  /* FOTO DE PERFIL */
+  .profilePicture {
+    & {
+      margin: 0;
+    }
+
+    img {
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    & {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: .5rem;
+      margin: 1rem auto;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    label {
+      width: 7rem;
+      font-size: 1rem;
+    }
+
+    .hobbies {
+      margin: 0;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  /* HABILIDADES - SKILLS */
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: justify;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 100%;
+    margin: .1rem;
+    display: inline-block;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      padding: .2rem;
+      height: 3.8rem;
+    }
+
+    .skills {
+      width: 3rem;
+      margin: 0.3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .contentContact a {
+    font-size: 1rem;
+  }
+
+  .formContact {
+    width: 23rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial {
+    p {
+      justify-content: left;
+      margin-left: .8rem;
+      font-size: 1rem;
+    }
+
+    label {
+      margin: 0;
+    }
+
+    a {
+      align-items: center;
+    }
+  }
+
+  .footerLinks {
+    & {
+      justify-content: left;
+    }
+
+    img {
+      height: 1.8rem;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  .contentAboutme,
+  .contentPortfolio,
+  .contentSkills,
+  .contentContact {
+    max-width: 100%;
+    margin: .7rem .5rem;
+  }
+
+  /* LOGO DE LA NAV */
+  .App-logo-image {
+    width: 12rem;
+    height: 3.5rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .navMenuLink {
+    & {
+      width: 6.5rem;
+      height: 2.5rem;
+      margin: .1rem;
+    }
+
+    h6 {
+      margin: 0;
+    }
+  }
+
+  /* INICIO - HOME */
+  .contentHome {
+    h2 {
+      text-shadow: 0 0 1rem #fff, 0 0 0.1rem #fff, 0 0 0.1rem #e1e446;
+    }
+
+    p {
+      text-shadow: 0 0 1rem #fff, 0 0 3rem #fff, 0 0 0.6rem #e44646;
+      margin: 0;
+    }
+  }
+
+  .txtHome {
+    & {
+      padding-top: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: justify;
+      -webkit-text-stroke-width: .01rem;
+      text-shadow: .01rem .01rem .02rem black, 0 0 1rem blue, 0 0 0.02rem blue;
+    }
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme p {
+    font-size: 1rem;
+  }
+
+  /* FOTO DE PERFIL */
+  .profilePicture img {
+    height: 80%;
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    & {
+      width: 100%;
+      margin: 0;
+    }
+
+    label {
+      font-size: 1.1rem;
+    }
+
+    .hobbies {
+      margin: .5rem;
+      width: 2.8rem;
+    }
+  }
+
+  /* PORTAFOLIO - PORTFOLIO */
+  .contentPortfolio p {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
+
+  /* CARDS PORTAFOLIO */
+  .card-img-top {
+    height: 10rem;
+  }
+
+  .card-body {
+    & {
+      padding: 1rem .5rem;
+    }
+
+    a {
+      font-size: .7rem;
+    }
+  }
+
+  .chatLauncher {
+    font-size: .7rem;
+  }
+
+  .imgChatBot {
+    height: auto;
+  }
+
+  /* HABILIDADES - SKILLS */
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: .3rem;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 13rem;
+    margin: .1rem;
+    display: inline-block;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      font-size: 1rem;
+      padding: .2rem;
+      height: 3.5rem;
+    }
+
+    .skills {
+      width: 2rem;
+      margin: 0;
+      margin-right: .5rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .formContact {
+    width: 25rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    margin: auto .4rem;
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial {
+    & {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      padding-top: .5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 0;
+      align-items: center;
+    }
+
+    label {
+      align-items: center;
+      margin: 0;
+    }
+
+    a {
+      font-size: .9rem;
+      margin: 0;
+    }
+
+    img {
+      height: 2rem;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 769px and up) */
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    width: 80%;
+    margin-left: 20%;
+    text-align: center;
+    border: solid .1rem mediumturquoise;
+  }
+
+  /* HABILIDADES - SKILLS */
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid .2rem red;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    display: inline-block;
+    padding: .2rem;
+    width: 15rem;
+    border: solid .1rem;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      width: 100%;
+    }
+
+    .skills {
+      width: 2.5rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .formContact {
+    width: 25rem;
+    margin: .5rem auto;
+  }
+
+  .btnSubmit {
+    margin: auto .4rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1440px and up) */
+
+@media only screen and (min-width: 1440px) {
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  /* Esta medida abarca mi compu */
+  .contentAboutme {
+    height: 100vh;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 4.5rem;
+  }
+
+  /* LOGO DE LA NAV */
+  .App-logo-image {
+    width: 100%;
+    height: 5rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .navMenuLink {
+    & {
+      width: 11.5rem;
+      height: 3.5rem;
+    }
+
+    h6 {
+      font-size: 1.5rem;
+    }
+  }
+
+  /* INICIO - HOME */
+  .txtHome p {
+    font-size: 2rem;
+    text-align: justify;
+    -webkit-text-stroke-width: .01rem;
+    text-shadow: .01rem .01rem .02rem black, 0 0 1rem blue, 0 0 0.02rem blue;
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme {
+    & {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .txtAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    & {
+      display: inline-flex;
+      align-items: center;
+      width: 75%;
+      margin-left: 24.5%;
+    }
+
+    label {
+      font-size: 1.4rem;
+    }
+
+    .hobbies {
+      width: 5rem;
+    }
+  }
+
+  /* HABILIDADES - SKILLS */
+  .contentSkills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerCardsTecSkills,
+  .containerCardsSoftSkills {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 15rem;
+    display: inline-block;
+    margin: .7rem;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      padding: .2rem;
+      height: 3.5rem;
+    }
+
+    .skills {
+      width: 3rem;
+      margin: .5rem 1rem;
+    }
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial {
+    & {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    p {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      font-size: 2rem;
+    }
+
+    label {
+      font-size: 1.5rem;
+      margin-bottom: .5rem;
+    }
+
+    img {
+      margin: 0 1rem;
+      height: 3rem;
+    }
+  }
+}
+
+/* Large devices (screen 2560px and up) */
+
+@media only screen and (min-width: 2560px) {
+
+  /* GENERAL */
+  body {
+    font-size: 2.5rem;
+  }
+
+  /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
+  .contentHome {
+    background-image: url('https://res.cloudinary.com/lexyfeer/image/upload/v1617143476/doubleDragonNeonWall.jpg');
+  }
+
+  .contentAboutme,
+  .contentPortfolio {
+    height: 100vh;
+  }
+
+  .contentSkills,
+  .contentContact {
+    height: auto;
+  }
+
+  .contentAboutme h2,
+  .contentPortfolio h2,
+  .contentSkills h2,
+  .contentContact h2 {
+    font-size: 10rem;
+  }
+
+  /* BARRA DE NAVEGACION - NAVBAR */
+  .App-logo-image {
+    height: 10rem;
+  }
+
+  .navMenuLink {
+    & {
+      width: 25rem;
+      height: 10rem;
+      padding: 0 .2rem;
+    }
+
+    h6 {
+      font-size: 4rem;
+    }
+  }
+
+  /* INICIO - HOME */
+  .contentHome {
+    h2 {
+      font-size: 14rem;
+      text-shadow: 0 0 .3rem rgb(174, 9, 207), 0 0 .4rem rgb(140, 18, 189), 0 0 5rem #e44646;
+      -webkit-text-fill-color: #10e8f0;
+      -webkit-text-stroke-color: rgb(115, 122, 12);
+      -webkit-text-stroke-width: 0.3rem;
+    }
+
+    p {
+      font-size: 10rem;
+      text-shadow: 0 0 .3rem rgb(174, 9, 207), 0 0 .4rem rgb(140, 18, 189), 0 0 5rem #e44646;
+      -webkit-text-fill-color: #10e8f0;
+      -webkit-text-stroke-color: rgb(115, 122, 12);
+      -webkit-text-stroke-width: 0.3rem;
+    }
+  }
+
+  .txtHome {
+    & {
+      padding-top: 10rem;
+    }
+
+    p {
+      font-size: 3.5rem;
+      text-align: justify;
+      -webkit-text-fill-color: #c9ff07;
+      -webkit-text-stroke-width: .01rem;
+      text-shadow: .1rem .1rem 2rem rgba(0, 0, 0, 0.781), 0 0 1rem blue, 0 0 1rem black;
+    }
+  }
+
+  /* SOBRE MI - ABOUT ME */
+  .contentAboutme p {
+    font-size: 3rem;
+  }
+
+  /* FOTO DE PERFIL */
+  .profilePicture img {
+    width: auto;
+    height: auto;
+  }
+
+  /* PASATIEMPOS - HOBBIES */
+  .containerHobbies {
+    label {
+      font-size: 3rem;
+    }
+
+    .hobbies {
+      width: 10rem;
+    }
+  }
+
+  /* PORTAFOLIO - PORTFOLIO */
+  h5 {
+    font-size: 4rem;
+  }
+
+  .contentPortfolio p {
+    font-size: 2.5rem;
+  }
+
+  /* CHATBOT ICON */
+  /* revisar como hacer mas grande el chat */
+
+  /* HABILIDADES - SKILLS */
+  .cardTecSkills,
+  .cardSoftSkills {
+    width: 40rem;
+  }
+
+  .list-group-flush .list-group-item {
+    & {
+      font-size: 3rem;
+      height: 9rem;
+      padding-bottom: 1rem;
+    }
+
+    .skills {
+      width: 8rem;
+      margin: .5rem 1rem;
+    }
+  }
+
+  /* CONTACTO - CONTAC ME */
+  .contentContact {
+    p {
+      font-size: 3rem;
+      margin: 0 3rem 1.5rem 3rem;
+    }
+
+    .contactMe li {
+      margin: 0 9rem;
+    }
+
+    h3 {
+      font-size: 5rem;
+    }
+  }
+
+  .formContact {
+    width: 60rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .form-control {
+    height: 6rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+  }
+
+  .btnSubmit {
+    font-size: 3rem;
+    margin: 1rem 2rem;
+  }
+
+  /* REDES SOCIALES - FOOTER */
+  .containerSocial {
+    p {
+      font-size: 5rem;
+    }
+
+    label {
+      font-size: 3rem;
+    }
+
+    img {
+      height: 5rem;
+    }
+  }
+}
+
+.neon {
+  color: #fff;
+  margin-top: 30%;
+  text-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 1), 0 0 80px rgba(38, 104, 127, 1), 0 0 90px rgba(38, 104, 127, 1), 0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1), 0 0 180px rgba(38, 104, 127, 1);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* @media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 900px and up) */
+
+/* @media only screen and (max-width: 900px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/* @media only screen and (min-width: 1024px) {} */
+
+/* @media (max-width: 900px) {
+
+} */
