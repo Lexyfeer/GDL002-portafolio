@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "201f1cda784a69415f66adc6692f0a7c",
+    "revision": "13d1561d53d30f8b55e81cadd2aa9d92",
     "url": "/GDL002-portafolio/index.html"
   },
   {
-    "revision": "bc72e4720707c38a3d22",
-    "url": "/GDL002-portafolio/static/css/main.bfac8cdc.chunk.css"
+    "revision": "ec4f366cd3dccd96e658",
+    "url": "/GDL002-portafolio/static/css/main.d487db0a.chunk.css"
   },
   {
-    "revision": "bac5f976dc63e93dfada",
-    "url": "/GDL002-portafolio/static/js/2.237b0594.chunk.js"
+    "revision": "13fea77489c03fb9b52f",
+    "url": "/GDL002-portafolio/static/js/2.6cc466cc.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/GDL002-portafolio/static/js/2.237b0594.chunk.js.LICENSE.txt"
+    "url": "/GDL002-portafolio/static/js/2.6cc466cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc72e4720707c38a3d22",
-    "url": "/GDL002-portafolio/static/js/main.565cc253.chunk.js"
+    "revision": "ec4f366cd3dccd96e658",
+    "url": "/GDL002-portafolio/static/js/main.05c6e5e3.chunk.js"
   },
   {
     "revision": "334ccc48f425fce1d337",
@@ -32,16 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GDL002-portafolio/static/media/PictureProfile.f2ccde18.jpg"
   },
   {
-    "revision": "ded633b613f1c4e792ae14e7a3c050f4",
-    "url": "/GDL002-portafolio/static/media/agil2.ded633b6.png"
+    "revision": "d04a1e9c09663d2703f0802461cd3c51",
+    "url": "/GDL002-portafolio/static/media/agileIcon.d04a1e9c.png"
   },
   {
-    "revision": "c0e86e59abc5cee9bd80994760754245",
-    "url": "/GDL002-portafolio/static/media/bootstrap1.c0e86e59.png"
+    "revision": "7321a5c4e2a5df026a063e326b36bfe9",
+    "url": "/GDL002-portafolio/static/media/bootstrapIcon.7321a5c4.png"
   },
   {
     "revision": "45396db9f5eeefcd5848c3bda479db3f",
     "url": "/GDL002-portafolio/static/media/css3.45396db9.png"
+  },
+  {
+    "revision": "d47db3c5496098881573c3c4a977897f",
+    "url": "/GDL002-portafolio/static/media/firebaseIcon.d47db3c5.png"
   },
   {
     "revision": "f3528d7a24e9631f9d9136250f68e923",
@@ -72,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GDL002-portafolio/static/media/js.e348b984.png"
   },
   {
-    "revision": "994e28182ce4c19d744fde4117856b58",
-    "url": "/GDL002-portafolio/static/media/kanban3.994e2818.jpg"
+    "revision": "96e8ad662a2bda300dbde2038feabf80",
+    "url": "/GDL002-portafolio/static/media/kanbanIcon.96e8ad66.png"
   },
   {
     "revision": "bb231c465097b9580b986f97fe3dc03e",
@@ -84,19 +88,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GDL002-portafolio/static/media/mongodb1.9091ab67.png"
   },
   {
-    "revision": "f9d4cfe7282d73521d889c3c909c63ce",
-    "url": "/GDL002-portafolio/static/media/nodejs1.f9d4cfe7.png"
+    "revision": "85458a6717bed07d7db5146928d3cdd0",
+    "url": "/GDL002-portafolio/static/media/nodejsIcon.85458a67.png"
   },
   {
-    "revision": "32173039331681e0c643204661e4273a",
-    "url": "/GDL002-portafolio/static/media/react.32173039.png"
+    "revision": "d588ea23a7c89233e73826a102c63e79",
+    "url": "/GDL002-portafolio/static/media/reactIcon.d588ea23.png"
   },
   {
     "revision": "630b580ecb1721d50b56c0fc894f2cfd",
     "url": "/GDL002-portafolio/static/media/responsive1.630b580e.png"
   },
   {
-    "revision": "2502078f32e4857bca38343f4235288f",
-    "url": "/GDL002-portafolio/static/media/scrum3.2502078f.png"
+    "revision": "ba1b42e88cb79e070f1c1138c09edae4",
+    "url": "/GDL002-portafolio/static/media/sassIcon.ba1b42e8.png"
+  },
+  {
+    "revision": "993b1d26a361a9e215393f95f9a7a433",
+    "url": "/GDL002-portafolio/static/media/scrumIcon.993b1d26.png"
+  },
+  {
+    "revision": "df906cbc70314f54dfbf78ab1de3de9b",
+    "url": "/GDL002-portafolio/static/media/sourceTreeIcon.df906cbc.png"
+  },
+  {
+    "revision": "fb48fda3db813e14b24289031bb5006b",
+    "url": "/GDL002-portafolio/static/media/tailwindIcon.fb48fda3.png"
   }
 ]);
