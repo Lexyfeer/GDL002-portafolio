@@ -53,11 +53,11 @@ export default function Portfolio() {
                 <div className='card-body'>
                   <h5 className='card-title'>{projectDetail.name}</h5>
                   <p className='card-text'>{projectDetail.about}</p>
-                  <p>
-                    Para más detalles pulsa el primer Link donde podras
-                    encontrar el README o el segundo link para ver el resultado
-                    final.
-                  </p>
+                  <ul>
+                    <li className='card-note'>
+                      Para más detalles pulsa el primer Link donde podras encontrar el README o el segundo link para ver el resultado final.
+                    </li>
+                  </ul>
                   <a
                     href={projectDetail.linkProject}
                     rel='noopener noreferrer'
@@ -97,7 +97,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          
+
         </div>
       </div>
     </Fragment>

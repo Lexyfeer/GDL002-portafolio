@@ -1,20 +1,23 @@
 import React, { Component, Fragment } from 'react';
 
-import agil from '../assets/images/agil2.png';
-import bootstrap from '../assets/images/bootstrap1.png';
+import agil from '../assets/images/agileIcon.png';
+import bootstrap from '../assets/images/bootstrapIcon.png';
 import css3 from '../assets/images/css3.png';
+import firebaseIcon from '../assets/images/firebaseIcon.png';
 import git from '../assets/images/git1.png';
 import github from '../assets/images/github.jpg';
 import html5 from '../assets/images/html5.png';
 import jest from '../assets/images/jest.jpg';
 import js from '../assets/images/js.png';
-import kanban from '../assets/images/kanban3.jpg';
+import kanban from '../assets/images/kanbanIcon.png';
 import mongodb from '../assets/images/mongodb1.png';
-import nodejs from '../assets/images/nodejs1.png';
-import npm from '../assets/images/npmlogo.png';
-import react from '../assets/images/react.png';
+import nodejs from '../assets/images/nodejsIcon.png';
+import react from '../assets/images/reactIcon.png';
 import responsiveWeb from '../assets/images/responsive1.png';
-import scrum from '../assets/images/scrum3.png';
+import sassIcon from '../assets/images/sassIcon.png';
+import scrum from '../assets/images/scrumIcon.png';
+import sourceTreeIcon from '../assets/images/sourceTreeIcon.png';
+import tailwindIcon from '../assets/images/tailwindIcon.png';
 
 class Skills extends Component {
   render() {
@@ -23,77 +26,112 @@ class Skills extends Component {
         <div className="contentSkills">
           <h2 className="neon">Habilidades técnicas</h2>
 
-          <div className="containerCardsTecSkills">
+          <div className="-containerCardsTecSkills">
             <div className="cardTecSkills border-primary">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <img className="skills" src={html5} alt="HTML 5" />
-                  HTML 5</li>
+                  HTML 5
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={css3} alt="CSS 3" />
-                  CSS 3</li>
+                  CSS 3
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={js} alt="JavaScript" />
-                  JavaScript</li>
+                  JavaScript
+                </li>
               </ul>
             </div>
+
+            <div className="cardTecSkills border-secondary">
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">
+                  <img className="skills" src={github} alt="Github" />
+                  Github
+                </li>
+                <li className="list-group-item">
+                  <img className="skills" src={git} alt="Git" />
+                  Git
+                </li>
+                <li className="list-group-item">
+                  <img className="skills" src={sourceTreeIcon} alt="Source Tree" />
+                  Source Tree
+                </li>
+              </ul>
+            </div>
+
             <div className="cardTecSkills border-danger">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
-                  <img className="skills" src={react} alt="React" />
-                  React</li>
+                  <img className="skills" src={react} alt="ReactJS" />
+                  React
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={nodejs} alt="NodeJS" />
-                  NodeJS</li>
+                  NodeJS
+                </li>
                 <li className="list-group-item">
-                  <img className="skills" src={npm} alt="npm" />
-                  NPM</li>
+                  <img className="skills" src={jest} alt="Jest" />
+                  Jest
+                </li>
               </ul>
             </div>
+
             <div className="cardTecSkills border-warning">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <img className="skills" src={mongodb} alt="Mongodb" />
-                  MongoDB</li>
+                  MongoDB
+                </li>
                 <li className="list-group-item">
-                  <img className="skills" src={jest} alt="Jest" />
-                  Jest</li>
+                  <img className="skills" src={firebaseIcon} alt="Firebase" />
+                  Firebase
+                </li>
                 <li className="list-group-item">
-                  <img className="skills" src={github} alt="Github" />
-                  Github</li>
+                  <img className="skills" src={responsiveWeb} alt="Responsive Web" />Responsive Web Design
+                </li>
               </ul>
             </div>
+
             <div className="cardTecSkills border-info">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
-                  <img className="skills" src={git} alt="Git" />
-                  Git</li>
+                  <img className="skills" src={sassIcon} alt="Sass" />
+                  Sass
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={bootstrap} alt="Bootstrap" />
-                  Bootstrap</li>
+                  Bootstrap
+                </li>
                 <li className="list-group-item">
-                  <img className="skills" src={responsiveWeb} alt="Responsive Web" />Responsive Web Design</li>
+                  <img className="skills" src={tailwindIcon} alt="tailwindIcon" />Tailwind CSS
+                </li>
               </ul>
             </div>
+
             <div className="cardTecSkills border-success">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">
                   <img className="skills" src={agil} alt="Metodología agil" />
-                  Metodología Agil</li>
+                  Metodología Agil
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={kanban} alt="Metodo kanban" />
-                  Manejo de Kanban</li>
+                  Manejo de Kanban
+                </li>
                 <li className="list-group-item">
                   <img className="skills" src={scrum} alt="Scrum" />
-                  Scrum</li>
+                  Scrum
+                </li>
               </ul>
             </div>
           </div>
 
 
-          <h2>Habilidades Blandas</h2>
+          <h2 className="neon">Habilidades Blandas</h2>
 
-          <div className="containerCardsSoftSkills">
+          <div className="-containerCardsSoftSkills">
             <div className="cardSoftSkills border-success">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item item">Auto aprendizaje</li>

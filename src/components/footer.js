@@ -10,7 +10,7 @@ class Footer extends React.Component {
 
                 <p>¡Sigueme en mis redes sociales !</p>
 
-                <div className="footerLinks">
+                <div className="-footerLinks">
                     <a href="https://www.linkedin.com/in/nancyrodriguezlopez/" rel="noopener noreferrer" target="_blank">
                         <label>LinkedIn</label>
                         <img className="linkedIn" src={iconLinkedin} alt="linkedin" />
