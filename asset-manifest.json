@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GDL002-portafolio/static/css/main.028688ee.chunk.css",
+    "main.css": "/GDL002-portafolio/static/css/main.6b76624f.chunk.css",
     "main.js": "/GDL002-portafolio/static/js/main.22b16ef9.chunk.js",
     "main.js.map": "/GDL002-portafolio/static/js/main.22b16ef9.chunk.js.map",
     "runtime-main.js": "/GDL002-portafolio/static/js/runtime-main.deba208c.js",
@@ -8,9 +8,9 @@
     "static/js/2.5622a1db.chunk.js": "/GDL002-portafolio/static/js/2.5622a1db.chunk.js",
     "static/js/2.5622a1db.chunk.js.map": "/GDL002-portafolio/static/js/2.5622a1db.chunk.js.map",
     "index.html": "/GDL002-portafolio/index.html",
-    "precache-manifest.da3ee9aceabe326ab9efffcdccc1e3e4.js": "/GDL002-portafolio/precache-manifest.da3ee9aceabe326ab9efffcdccc1e3e4.js",
+    "precache-manifest.27c26923ed8ca4a3551abf121e189989.js": "/GDL002-portafolio/precache-manifest.27c26923ed8ca4a3551abf121e189989.js",
     "service-worker.js": "/GDL002-portafolio/service-worker.js",
-    "static/css/main.028688ee.chunk.css.map": "/GDL002-portafolio/static/css/main.028688ee.chunk.css.map",
+    "static/css/main.6b76624f.chunk.css.map": "/GDL002-portafolio/static/css/main.6b76624f.chunk.css.map",
     "static/js/2.5622a1db.chunk.js.LICENSE.txt": "/GDL002-portafolio/static/js/2.5622a1db.chunk.js.LICENSE.txt",
     "static/media/LogoPortfolio.png": "/GDL002-portafolio/static/media/LogoPortfolio.addc13e4.png",
     "static/media/agileIcon.png": "/GDL002-portafolio/static/media/agileIcon.d04a1e9c.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.deba208c.js",
     "static/js/2.5622a1db.chunk.js",
-    "static/css/main.028688ee.chunk.css",
+    "static/css/main.6b76624f.chunk.css",
     "static/js/main.22b16ef9.chunk.js"
   ]
 }
