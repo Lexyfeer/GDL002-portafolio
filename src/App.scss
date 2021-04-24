@@ -140,6 +140,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     width: 95%;
+    min-height: 100vh;
     margin: 5rem auto 1rem;
     border-radius: 1rem;
     background-image: url('https://res.cloudinary.com/lexyfeer/image/upload/v1617143476/doubleDragonNeonWall.jpg');
@@ -868,7 +869,7 @@ nav {
 
 /* Small devices (portrait tablets and large phones, 768px and up) */
 
-@media only screen and (max-width: 990px) and (min-width: 536px) {
+@media only screen and (max-width: 1000px) and (min-width: 536px) {
 
   /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
   .contentAboutme,
@@ -1099,7 +1100,7 @@ nav {
 
 /* Large devices (laptops/desktops, 769px and up) */
 
-@media only screen and (max-width: 1196px) and (min-width: 991px) {
+@media only screen and (max-width: 1199px) and (min-width: 1001px) {
 
   /* PRINCIPALES CONTENEDORES - MAIN CONTAINERS */
   .contentAboutme,
