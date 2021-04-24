@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13d1561d53d30f8b55e81cadd2aa9d92",
+    "revision": "2dd5d5bed1804902783221743fbc44b8",
     "url": "/GDL002-portafolio/index.html"
   },
   {
-    "revision": "ec4f366cd3dccd96e658",
-    "url": "/GDL002-portafolio/static/css/main.d487db0a.chunk.css"
+    "revision": "a89c3aca56ba2812e8d2",
+    "url": "/GDL002-portafolio/static/css/main.c6e676e1.chunk.css"
   },
   {
-    "revision": "13fea77489c03fb9b52f",
-    "url": "/GDL002-portafolio/static/js/2.6cc466cc.chunk.js"
+    "revision": "b859b52420c8444ca4fa",
+    "url": "/GDL002-portafolio/static/js/2.5622a1db.chunk.js"
   },
   {
-    "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/GDL002-portafolio/static/js/2.6cc466cc.chunk.js.LICENSE.txt"
+    "revision": "dbe5ca7a82c728776bb536c3d2d64135",
+    "url": "/GDL002-portafolio/static/js/2.5622a1db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec4f366cd3dccd96e658",
-    "url": "/GDL002-portafolio/static/js/main.05c6e5e3.chunk.js"
+    "revision": "a89c3aca56ba2812e8d2",
+    "url": "/GDL002-portafolio/static/js/main.22b16ef9.chunk.js"
   },
   {
-    "revision": "334ccc48f425fce1d337",
-    "url": "/GDL002-portafolio/static/js/runtime-main.5907307d.js"
+    "revision": "8d8a0b10a869635fb3bf",
+    "url": "/GDL002-portafolio/static/js/runtime-main.deba208c.js"
   },
   {
     "revision": "addc13e43004a6cde9da13b53355c16d",
     "url": "/GDL002-portafolio/static/media/LogoPortfolio.addc13e4.png"
-  },
-  {
-    "revision": "f2ccde1853c598fe52f2618e27a21175",
-    "url": "/GDL002-portafolio/static/media/PictureProfile.f2ccde18.jpg"
   },
   {
     "revision": "d04a1e9c09663d2703f0802461cd3c51",
@@ -90,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "85458a6717bed07d7db5146928d3cdd0",
     "url": "/GDL002-portafolio/static/media/nodejsIcon.85458a67.png"
+  },
+  {
+    "revision": "aa2faa9962d6d4d41740bdafb55bb4f9",
+    "url": "/GDL002-portafolio/static/media/profilePicture.aa2faa99.jpg"
   },
   {
     "revision": "d588ea23a7c89233e73826a102c63e79",
