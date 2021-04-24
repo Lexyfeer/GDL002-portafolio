@@ -20,7 +20,7 @@ class Contact extends Component {
               ENVÍAME UN CORREO AQUÍ
           </a>
 
-            <a target="_blank" href="https://res.cloudinary.com/lexyfeer/image/upload/v1617315847/Nancy_maria_de_la_luz_rodriguez_lopez.pdf">
+            <a target="_blank" rel="noopener noreferrer" href="https://res.cloudinary.com/lexyfeer/image/upload/v1617315847/Nancy_maria_de_la_luz_rodriguez_lopez.pdf">
               <img className="iconPdf" src={icoPDF} alt="Archivo PDF" />
               DESCARGA MI CV AQUÍ
           </a>

@@ -1,11 +1,12 @@
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 
 import Logo from '../assets/images/LogoPortfolio.png';
-import React from 'react';
 
-const Navigation = () => (
-    <Navbar variant="dark" expand="lg" sticky="top">
+function Navigation() {
+    return (
+        <Navbar variant="dark" expand="lg" sticky="top">
         <Navbar.Brand>
             <Link to="/">
                 <img className="App-logo-image" src={Logo} alt="logo" />
@@ -45,6 +46,7 @@ const Navigation = () => (
             </Nav>
         </Navbar.Collapse>
     </Navbar>
-)
+    )
+}
 
 export default Navigation;
