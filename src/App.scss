@@ -20,7 +20,7 @@ body {
 .App {
   width: auto;
   height: auto;
-  border: solid .2rem lawngreen;
+  // border: solid .2rem lawngreen;
   overflow-x: hidden;
 }
 
@@ -54,7 +54,7 @@ body {
 nav {
   & {
     background-color: rgb(37, 37, 35);
-    border-bottom: 0.1rem solid rgb(255, 199, 1);
+    // border-bottom: 0.1rem solid rgb(255, 199, 1);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -72,6 +72,16 @@ nav {
     .app-logo-image {
       height: 3rem;
       border: solid .1rem red;
+      box-shadow:
+        0 0 8px #f4ecff,
+        0 0 8px #d43f3a,
+        0 0 2px #d43f3a,
+        0 0 10px #d43f3a,
+        0 0 6px #d43f3a,
+        0 0 20px #d43f3a,
+        0 0 20px #d43f3a,
+        0 0 1px #d43f3a,
+        0 0 12px #d43f3a;
     }
   }
 
@@ -393,7 +403,6 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: solid .2rem red;
     }
 
     .cardTecSkills,
@@ -535,7 +544,7 @@ nav {
 .containerSocial {
   & {
     padding-top: .1rem;
-    border: solid .2rem blue;
+    // border-top: 0.1rem solid rgb(255, 199, 1);
   }
 
   p {
@@ -1428,7 +1437,7 @@ nav {
 
       &.active {
         border-bottom: none;
-}
+      }
 
       .nav-item {
         & {
