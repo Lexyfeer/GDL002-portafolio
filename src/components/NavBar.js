@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import { Howl } from 'howler';
+import sound1 from '../assets/audio/005084953_prev.mp3'
 
 import Logo from '../assets/images/LogoPortfolio.png'
 
@@ -7,6 +9,11 @@ const Nabvar = () => {
     const [navMenuOpen, setnavMenuToggle] = useState(false)
 
     const handleNavMenuToggle = () => {
+        let sound = new Howl({
+            src: [sound1],
+            volume: .2
+        });
+        sound.play();
         setnavMenuToggle(!navMenuOpen)
     }
 
